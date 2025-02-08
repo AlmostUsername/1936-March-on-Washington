@@ -1,0 +1,335 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 35,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 12,
+        "fields": {
+            "year": 1948,
+            "summary": "<div style='overflow-y:scroll;height:180px;padding-right:7px'><b>CONTENT WARNING: This mod depicts a United States steadily descending into fascism, along with the violent and bigoted realities of such an ideology. If that is a subject matter that upsets you, it is recommended you do not play this mod.</b><p>America's overton window, so neatly centered on the ideas of conservative capitalism, was shattered by the Great Depression, throwing the nation's political scene into chaos. Outside of the peaceful resolution of the Bonus Army, Coolidge's third term proved to be a disaster, sacrificing millions on a cross of laissez-faire capitalism. The Democrats, on the other hand, lacked a strong figure to unite themselves around, and proved too divided to act as meaningful opposition. It wasn't much of a surprise, then, when Jacob Coxey Sr. and the Progressive-Farmer-Labor Alliance narrowly clinched the presidency in '32. The reactions were instantaneous. Progressives cheered, liberals wagged their fingers, conservatives clutched their pearls, and Gerald C. MacGuire sent a letter to retired marine Smedley Butler that would change the course of American history forever.\n\n<p>Elected on a platform of nation-spanning public works, unemployment relief and expanded worker's rights, the PFLA's tiny numbers in Congress resulted in them having to compromise with liberal Republicans and Democrats to get anything passed. Outside of executive orders, January through July was marked by a sheer inability by the federal government to get anything done, leading to many moderates who voted for the otherwise radical ticket on the promises of action to waver in their support for the president.\n\n<p>Meanwhile, in the shady backrooms of wealthy hotels, a plot was being cooked up by those opposed to the PFLA and their left wing agenda. A small collection of capitalists, generals, conservative politicians and fascists, known to themselves as the National Emergency Committee, began their takeover of the American Legion, drumming up the already existing anti-socialist sentiment to push it in the direction of a more dedicatedly militant group. Their goal was simple: to use the Legion to overthrow President Coxey and replace his administration with one that was much further to the right. They just needed someone to marshall their troops and lead them in the prospective coup.\n\n<p>Smedley Butler was resistant at first. The somewhat disappointing outcome of the Bonus Army had rebuilt his respect for the Legion, but it had also caused him to distrust the wealthy political establishment. Still, after a rather personal meeting with Hanford MacNider, the man was finally convinced, albeit reluctantly, to run for the position of National Commander of the American Legion, which he won, allowing for the NEC to finally set their plan for a coup in motion. Months of speeches and rallies, combined with a concerted campaign of bribery and intimidation behind the scenes, came to a head on July 2nd, 1933, when a crowd of thousands of veterans set off on a laborious two-day march from Harrisburg down to Washington DC, demanding the removal of the 'crypto-socialist' Coxey.\n\n<p>They would return successful.<p></div>",
+            "image_url": "https://i.postimg.cc/qqPJNnMw/MOW-36-Election-Image.png",
+            "winning_electoral_vote_number": 266,
+            "advisor_url": "https://i.postimg.cc/T39K47PX/Child-Advisor-Feedback.png",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1948 Election Books and Links</h4>David McCullough - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B000FC0VVQ/amhius20-20\" target=\"_blank\">Truman</a></br>Andrew E. Busch - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0700618678/amhius20-20\" target=\"_blank\">Truman's Triumphs: The 1948 Election and the Making of Postwar America</a></br>David Pietruza - <a href=\"http://www.amazon.com/exec/obidos/ASIN/140276748X/amhius20-20\" target=\"_blank\">1948: Harry Truman's Improbable Victory and the Year that Transformed America</a></br>Richard Norton Smith - <a href=\"http://www.amazon.com/exec/obidos/ASIN/067141741X/amhius20-20\" target=\"_blank\">Thomas E. Dewey and His Times</a></br><a href=\"https://www.youtube.com/watch?v=rJABgG4YDwM\" target=\"_blank\">The 1948 Democratic Convention (newsreel footage)</a></br><a href=\"https://www.youtube.com/watch?v=ogg9YsxGQm4\" target=\"_blank\">The 1948 Republican Convention (newsreel footage)</a></br><a href=\"https://www.youtube.com/watch?v=LW2ae0Fznwg\" target=\"_blank\">The 1948 Election Explained (video)</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1960-no-majority-photo.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1936 March On Washington"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 116,
+        "fields": {
+            "first_name": "Smedley",
+            "last_name": "Butler",
+            "election": 12,
+            "party": "Republican (formerly)",
+            "state": "Pennsylvania",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:180px;padding-right:7px'>To the people of America, Butler is the definition of a hero: a man who fought tooth and nail to further righteous causes of liberty and democracy. To the veterans of America, he is their champion: the leader of their movement and the loudest voice calling for their rights. To you and your fellows in the National Emergency Council, he's your biggest asset - and your biggest threat.\n\n<p>Gaining his fame from his valiant and exceptional actions in nearly every American-involved conflict from 1898 to 1929, Butler was the NEC's first obvious choice to lead the March on Washington. His near cult-like status amongst the people of the nation would ensure a wide range of support in the prospective coup, and would be vital in appeasing any opponents. To say it took a while to get him on board would be an understatement - getting him to run for commander of the American legion cost a full day's worth of negotiations alone - but, finally convinced of Coxey's weakness, Smedley has pledged himself to the creation of a new regime for the sake of America's stability.\n\n<p>However, it's no small worry that, once given the levers of power, Butler will not settle for being the NEC's puppet for long. His gradual shift leftwards since his retirement, coupled with his distaste for fascism and its sympathizers, could easily result in the former Marine sweeping the rug out from under you and your compatriots, resulting in the establishment of a government ten times more dangerous and competent than Coxey's. Needless To say, plans have been put in place to ensure old Smedley never gets the chance.<p></div>",
+            "color_hex": "#434343",
+            "secondary_color_hex": "#999999",
+            "is_active": 1,
+            "image_url": "https://i.postimg.cc/j5kdrmpG/MOW-Butler-Candidate.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 117,
+        "fields": {
+            "first_name": "Undecided",
+            "last_name": "Republican",
+            "election": 12,
+            "party": "Republican",
+            "state": "'",
+            "priority": 2,
+            "description": "'",
+            "color_hex": "#990000",
+            "secondary_color_hex": "#b05555",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 118,
+        "fields": {
+            "first_name": "Undecided",
+            "last_name": "Democrat",
+            "election": 12,
+            "party": "Democrat",
+            "state": "'",
+            "priority": 3,
+            "description": "'",
+            "color_hex": "#073763",
+            "secondary_color_hex": "#4c7ead",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 119,
+        "fields": {
+            "first_name": "Jacob",
+            "last_name": "Coxey Sr.",
+            "election": 12,
+            "party": "PFLA",
+            "state": "'",
+            "priority": 4,
+            "description": "'",
+            "color_hex": "#34a853",
+            "secondary_color_hex": "#6fc886",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 120,
+        "fields": {
+            "first_name": "Richard Washburn",
+            "last_name": "Child",
+            "election": 12,
+            "party": "Independent",
+            "state": "Massachusetts",
+            "priority": 5,
+            "description": "'",
+            "color_hex": "#6b6b6b",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.postimg.cc/fb8Mx1RJ/MOW-Child-Candidate.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:180px;padding-right:7px'>If someone had asked you twenty-two years ago if you could see yourself as one of the ringleaders of a pro-business plot to overthrow the American president, you'd probably call them insane and waffle on about some Rooseveltian, trust-busting policy. But, you're not that young, naive progressive anymore, because you've seen the future - both the good and bad - and in neither of them does democracy flourish.\n\n<p>First, you watched in horror as the Russian Revolution saw constitutional democracy overthrown in favor of mob rule and parasitic socialism. Spiridonova and her dastardly allies made a mockery of freedom with their 'soviet democracy' and 'informal state', whilst the traitors at home only grew in number and ferocity. And, then, Harding appointed you to be ambassador of Italy, and you saw it for the first time: the only system that could stop the encroachment of Narodism and save America from anarchy. Fascism.\n\n<p>After years of propagandizing for Mussolini, you returned to the states in 1930 to spread the gospel of ultranationalism amongst the angry masses, running for a seat in the House in the midterms. With a bit of financial help from the likes of Henry Ford, you rode the wave of anti-establishment sentiment into the Capitol as one of the many independent politicians to do so that year. When it became clear Coxey and the PFLA would win in '32, your close relations to conservatives and business-leaders alike meant you were one of the first politicians to be roped into the plan to remove the new President, with the NEC quickly settling on you to be Butler's VP if he accepted his role in the coup.\n\n<p>With Washington in the Committee's hands, the presidency is only one unfortunate event away…<p></div>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 121,
+        "fields": {
+            "first_name": "Undecided",
+            "last_name": "Republican",
+            "election": 12,
+            "party": "Republican",
+            "state": "'",
+            "priority": 6,
+            "description": "'",
+            "color_hex": "#ffffff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 125,
+        "fields": {
+            "first_name": "Undecided",
+            "last_name": "Democrat",
+            "election": 12,
+            "party": "Democrat",
+            "state": "'",
+            "priority": 10,
+            "description": "'",
+            "color_hex": "#ffffff",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 126,
+        "fields": {
+            "first_name": "Robert M.",
+            "last_name": "La Follette Jr.",
+            "election": 12,
+            "party": "PFLA",
+            "state": "'",
+            "priority": 11,
+            "description": "'",
+            "color_hex": "#ffffff",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "'",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 76,
+        "fields": {
+            "candidate": 116,
+            "running_mate": 120
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 81,
+        "fields": {
+            "candidate": 118,
+            "running_mate": 125
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 77,
+        "fields": {
+            "candidate": 117,
+            "running_mate": 121
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 153351,
+        "fields": {
+            "candidate": 119,
+            "running_mate": 126
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Ban Dryan"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 12,
+        "candidates": [
+            116,
+            117,
+            118,
+            119
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 12,
+        "candidates": [
+            116,
+            117,
+            118,
+            119
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 12,
+        "year": 1948,
+        "is_premium": 0,
+        "display_year": "1936 March On Washington"
+    }
+]
+
+jet_data = {
+    "headerColor": "#434343",
+    "windowColor": "#6e6e6e",
+    "containerColor": "#999999",
+    "innerWindowColor": "#c4c4c4",
+    "bannerImageUrl": "https://i.postimg.cc/qv8RCmK3/MOW-Butler-Banner.png",
+    "backgroundImageUrl": "",
+    "endingTextColor": "#000000",
+    "customQuote": "“In short, I was a racketeer, a gangster for capitalism.” Smedley D. Butler"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“In short, I was a racketeer, a gangster for capitalism.” Smedley D. Butler</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#434343";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#6e6e6e";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#999999";
+
+document.getElementById("header").src = "https://i.postimg.cc/qv8RCmK3/MOW-Butler-Banner.png";
+
+document.body.background = "";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#c4c4c4!important;}</style>";
+
+//#endcode
