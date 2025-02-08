@@ -10216,7 +10216,6 @@ campaignTrail_temp.answer_feedback_json = [
             "answer_feedback": "Considering his imminent fate, none in the NEC are happy at your attempts to appease him. Still, they allow Butler his speech, albeit it a heavily modified version, and it seems to do the trick, with the promises of free elections leading to all but the most radical laying down their signs and going home."
         }
     }
-]
 
 campaignTrail_temp.jet_data = [{
     "mapping_enabled": false,
@@ -10441,3 +10440,4 @@ if (!element) {
 	controlElement.id = 'controlElement';
 	document.body.appendChild(controlElement);
 }
+]
