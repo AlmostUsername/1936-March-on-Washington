@@ -315,7 +315,7 @@ document.body.style.backgroundSize="cover";
 //#startcode
 
 
-corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“In short, I was a racketeer, a gangster for capitalism.” Smedley D. Butler</em></font>\n            ';
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“In short, I was a racketeer, a gangster for capitalism.” - Smedley D. Butler</em></font>\n            ';
 
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#434343";

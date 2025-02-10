@@ -1,4 +1,5 @@
 
+
 campaignTrail_temp.cyoa = true;
 
 function getQuestionNumberFromPk(pk) {
@@ -152,6 +153,15 @@ campaignTrail_temp.questions_json = [
         "fields": {
             "priority": 11,
             "description": "After weeks of hearings, arguments and obsessive news coverage, the Dies-Dickstein Committee will be ending their investigation of the Union Plot with the sentencing of former President Coxey and Vice President La Follette. Of course, with the two of them no longer around, their trials were held in absentia, much to the suspicion of the general public. Still, the plethora of fabricated evidence and false testimonies provided by the state have been enough to convince the jury to find them guilty. As the NEC prepares for the last day of court, Davis consults with you one final time on the pair’s hypothetical punishment.",
+            "likelihood": 1
+        }
+    },
+    {
+        "model": "campaign_trail.question",
+        "pk": 13730,
+        "fields": {
+            "priority": 12,
+            "description": "Domestic unrest is not the only pressing issue, it seems, as Bush relays a number of worrying reports from China. The civil war in Xinjiang has devolved to the point of SRL intervention, with Soviet Militias under Nestor Kalandarishvili swarming over the border with the support of domestic socialists. To make matters worse, the Guominjun, a close ally of the Soviets, has declared open war on the supposedly neutral Shanxi clique following revelations that its leader, Yan Xishan, has been covertly working with the Beiyang Government to undermine GMJ presence in the region. Bush warns you that this may be the beginning of a Soviet-backed unification campaign, which could result in a single China under socialist rule, and he implores the rest of the NEC to take action to prevent this.",
             "likelihood": 1
         }
     }
@@ -524,6 +534,38 @@ campaignTrail_temp.answers_json = [
         "fields": {
             "question": 13724,
             "description": "Despite the… mysterious circumstances of their disappearances, Coxey and La Follette were still traitors. If they were here, they would be sentenced to hang."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 13731,
+        "fields": {
+            "question": 13730,
+            "description": "I understand where you're coming from, Prescott, I really do, but I feel you're getting worked up over nothing. The Federalists in the south have expressed no interest in military unification, and the Japanese wouldn't let anything happen to Beiyang without a fight. Plus, can you imagine the outcry from voters if we broke our Isolationism to intervene in China, of all places?"
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 13732,
+        "fields": {
+            "question": 13730,
+            "description": "I'm afraid Xinjiang is too far out of our reach to intervene, but Shanxi could benefit from our help. We have more than enough equipment we can send their way, although we'll have to be discreet about it to not alert the public. Bush, I want you to contact the Beiyang embassy and get their help in drawing up a plan to arm Yan."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 13733,
+        "fields": {
+            "question": 13730,
+            "description": "It may be unpopular, but it's vital we cut off the tendrils of socialism before they reach any further. The Beiyang Government's monarchism makes them a natural enemy of these revolutionaries, and their strong connections to the Japanese makes them the most likely power to unite the region. Let us stake a position in China by offering them funds and weapons."
+        }
+    },
+    {
+        "model": "campaign_trail.answer",
+        "pk": 13734,
+        "fields": {
+            "question": 13730,
+            "description": "It may be unpopular, but it's vital we cut off the tendrils of socialism before they reach any further. The Nanjing Government's nationalism has granted them significant support amongst the populace, and it's no secret Wu Peifu is practically begging for an alliance with the US. Let us stake a position in China by offering them funds and weapons."
         }
     }
 ]
@@ -6218,6 +6260,36 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 119,
             "global_multiplier": 0.04
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 13740,
+        "fields": {
+            "answer": 13731,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 13742,
+        "fields": {
+            "answer": 13733,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "global_multiplier": 0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 13744,
+        "fields": {
+            "answer": 13734,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "global_multiplier": 0.005
+        }
     }
 ]
 
@@ -6247,7 +6319,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13611,
         "fields": {
             "answer": 13603,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.75,
             "issue_importance": 5
         }
@@ -6267,7 +6339,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13619,
         "fields": {
             "answer": 13604,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.5,
             "issue_importance": 4
         }
@@ -6287,7 +6359,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13624,
         "fields": {
             "answer": 13602,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.75,
             "issue_importance": 6
         }
@@ -6297,7 +6369,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13629,
         "fields": {
             "answer": 13626,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.75,
             "issue_importance": 6
         }
@@ -6307,7 +6379,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13633,
         "fields": {
             "answer": 13630,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.75,
             "issue_importance": 5
         }
@@ -6327,7 +6399,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13643,
         "fields": {
             "answer": 13640,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.5,
             "issue_importance": 4
         }
@@ -6347,7 +6419,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13653,
         "fields": {
             "answer": 13650,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.75,
             "issue_importance": 6
         }
@@ -6357,7 +6429,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13657,
         "fields": {
             "answer": 13654,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.75,
             "issue_importance": 5
         }
@@ -6377,7 +6449,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13667,
         "fields": {
             "answer": 13664,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.5,
             "issue_importance": 4
         }
@@ -6397,7 +6469,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13678,
         "fields": {
             "answer": 13675,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.75,
             "issue_importance": 6
         }
@@ -6407,7 +6479,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13682,
         "fields": {
             "answer": 13679,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.75,
             "issue_importance": 5
         }
@@ -6427,7 +6499,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "pk": 13692,
         "fields": {
             "answer": 13689,
-            "issue": "42",
+            "issue": 42,
             "issue_score": -0.5,
             "issue_importance": 4
         }
@@ -6489,6 +6561,46 @@ campaignTrail_temp.answer_score_issue_json = [
             "answer": 13725,
             "issue": 46,
             "issue_score": -1,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 13739,
+        "fields": {
+            "answer": 13731,
+            "issue": 44,
+            "issue_score": -0.5,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 13741,
+        "fields": {
+            "answer": 13732,
+            "issue": 44,
+            "issue_score": 0.25,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 13743,
+        "fields": {
+            "answer": 13733,
+            "issue": 44,
+            "issue_score": 0.75,
+            "issue_importance": 3
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 13745,
+        "fields": {
+            "answer": 13734,
+            "issue": "42",
+            "issue_score": 0.75,
             "issue_importance": 3
         }
     }
@@ -7132,6 +7244,138 @@ campaignTrail_temp.answer_score_state_json = [
             "affected_candidate": 116,
             "state_multiplier": -0.02
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13746,
+        "fields": {
+            "answer": 13734,
+            "state": 363,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13747,
+        "fields": {
+            "answer": 13734,
+            "state": 352,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13748,
+        "fields": {
+            "answer": 13734,
+            "state": 359,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13749,
+        "fields": {
+            "answer": 13734,
+            "state": 368,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13750,
+        "fields": {
+            "answer": 13734,
+            "state": 337,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13751,
+        "fields": {
+            "answer": 13734,
+            "state": 378,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13752,
+        "fields": {
+            "answer": 13733,
+            "state": 337,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13753,
+        "fields": {
+            "answer": 13733,
+            "state": 378,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13754,
+        "fields": {
+            "answer": 13733,
+            "state": 368,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13755,
+        "fields": {
+            "answer": 13733,
+            "state": 359,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": 0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13756,
+        "fields": {
+            "answer": 13733,
+            "state": 363,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": -0.015
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 13757,
+        "fields": {
+            "answer": 13733,
+            "state": 352,
+            "candidate": 116,
+            "affected_candidate": 116,
+            "state_multiplier": -0.015
+        }
     }
 ]
 
@@ -7549,10 +7793,44 @@ campaignTrail_temp.answer_feedback_json = [
             "candidate": 116,
             "answer_feedback": "The backlash to the death sentence is muted by the fact there is simply no one to carry it out on, alongside the fact people are much more concerned with the current whereabouts of the two statesmen. Talks of a permanent alliance between the PFLA and Socialist Party snake their way up to you through the Bureau of Investigation, alongside worryingly accurate theories positing the former executives perished during the March on Washington."
         }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 13735,
+        "fields": {
+            "answer": 13731,
+            "candidate": 116,
+            "answer_feedback": "Wood and the other more isolationist-minded members of the NEC figure this is the right call, as it's largely in line with public opinion, but even Hearst’s media machine can't drown out the sheer amount of articles by wide-eyed internationalists calling you weak on narodism."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 13736,
+        "fields": {
+            "answer": 13732,
+            "candidate": 116,
+            "answer_feedback": "Beiyang customs officers turn a blind eye as agents begin funneling arms into Shanxi under the guise of humanitarian aid, beginning the arduous process of making up for the masses of Soviet weaponry flooding into the GMJ through Mongolia. Reports from Moscow about the suspicious number of Jin Army troops armed with American equipment are denounced by the media as socialist propaganda."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 13737,
+        "fields": {
+            "answer": 13733,
+            "candidate": 116,
+            "answer_feedback": "The National Assembly in Beiyang sends you a tepid letter thanking you for the support, pledging to use it to combat the scourge of narodism in Asia. Nanjing, on the other hand, is livid, with Wu Peifu himself calling you an insult to the founding fathers’ legacy in a scathing speech picked up by few newspapers, and read by even fewer Americans."
+        }
+    },
+    {
+        "model": "campaign_trail.answer_feedback",
+        "pk": 13738,
+        "fields": {
+            "answer": 13734,
+            "candidate": 116,
+            "answer_feedback": "The Jade Marshall himself makes a call to the American ambassador for China to laud your administration for its commitment to “republicanism and anti-communism”, promising to put your portrait up in his office, next to George Washington's. Your celebratory mood is short-lived, however, as the ambassador for Japan reports getting numerous furious calls from Tokyo."
+        }
     }
 ]
-
-
 
 campaignTrail_temp.jet_data = [{
     "mapping_enabled": false,
@@ -7564,11 +7842,32 @@ campaignTrail_temp.jet_data = [{
         "117": "Republican",
         "118": "Democrat",
         "119": "Progressive"
+    },
+    "banner_enabled": true,
+    "banner_data": {
+        "canName": "Coxey Sr.",
+        "runName": "La Follette Jr.",
+        "canImage": "https://i.postimg.cc/Y9w8X8rY/MOW-Coxey-Candidate.png",
+        "runImage": "https://i.postimg.cc/9f9Jtshc/MOW-La-Follette-Candidate.png"
     }
 }
 ]
 
 //Jet's Tool edits the code from this point upwards
+
+campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/Y9w8X8rY/MOW-Coxey-Candidate.png";
+campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/9f9Jtshc/MOW-La-Follette-Candidate.png";
+campaignTrail_temp.candidate_last_name = "Coxey Sr.";
+campaignTrail_temp.running_mate_last_name = "La Follette Jr.";
+
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“Every nation has its war party... It is commercial, imperialistic, ruthless. It tolerates no opposition.”<br>- Robert M. La Follette Jr.</em></font>\n            ';
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#1f4129";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#2e7641";
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+$(".container")[0].style.backgroundColor = "#34a853";
+document.getElementById("header").src = "https://i.postimg.cc/XYms54t2/MOW-Coxey-Banner.png";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#6fc886!important;}</style>";
 
 campaignTrail_temp.cyoa = true
 //Visible Variables
@@ -7595,43 +7894,97 @@ cyoAdventure = function(a) {{
 }
 ans = e.player_answers[e.player_answers.length - 1]
     console.log("ans is: " + ans)
-    
-    //Question 10 Variations
-    if (e.player_answers.length === 9 && PartyComposition === 0 && LegislativeGoodwill > 0) {
-        e.questions_json[9] = tunnel(13601)
-        console.log("can't successfully oppose compensation")
-    }
-    if (e.player_answers.length === 9 && PartyComposition > 1 && LegislativeGoodwill > 0) {
-        e.questions_json[9] = tunnel(13625)
-        console.log("can't successfully oppose compensation")
-    }
-    if (e.player_answers.length === 9 && PartyComposition === 0 && LegislativeGoodwill === 0) {
-        e.questions_json[9] = tunnel(13649)
-        console.log("can't successfully oppose compensation")
-    }
-    if (e.player_answers.length === 9 && PartyComposition > 1 && LegislativeGoodwill === 0) {
-        e.questions_json[9] = tunnel(13674)
-        console.log("can't successfully oppose compensation")
-    }
-    //Question 11 Variations
-    if (e.player_answers.length === 9 && LegitimatePresident === 1) {
-        e.questions_json[10] = tunnel(13700)
-        console.log("can't successfully oppose compensation")
-    }
-    if (e.player_answers.length === 9 && LegitimatePresident === 2) {
-        e.questions_json[10] = tunnel(13713)
-        console.log("can't successfully oppose compensation")
-    }
-    if (e.player_answers.length === 9 && LegitimatePresident === 3) {
-        e.questions_json[10] = tunnel(13724)
-        console.log("can't successfully oppose compensation")
-    }
+
+
+
+//Question 10 Variations
+if (e.player_answers.length === 9 && PartyComposition === 0 && LegislativeGoodwill > 0) {
+    e.questions_json[9] = tunnel(13601)
+    console.log("can't successfully oppose compensation")
+}
+if (e.player_answers.length === 9 && PartyComposition > 1 && LegislativeGoodwill > 0) {
+    e.questions_json[9] = tunnel(13625)
+    console.log("can't successfully oppose compensation")
+}
+if (e.player_answers.length === 9 && PartyComposition === 0 && LegislativeGoodwill === 0) {
+    e.questions_json[9] = tunnel(13649)
+    console.log("can't successfully oppose compensation")
+}
+if (e.player_answers.length === 9 && PartyComposition > 1 && LegislativeGoodwill === 0) {
+    e.questions_json[9] = tunnel(13674)
+    console.log("can't successfully oppose compensation")
+}
+//Question 11 Variations
+if (e.player_answers.length === 9 && LegitimatePresident === 1) {
+    e.questions_json[10] = tunnel(13700)
+    console.log("can't successfully oppose compensation")
+}
+if (e.player_answers.length === 9 && LegitimatePresident === 2) {
+    e.questions_json[10] = tunnel(13713)
+    console.log("can't successfully oppose compensation")
+}
+if (e.player_answers.length === 9 && LegitimatePresident === 3) {
+    e.questions_json[10] = tunnel(13724)
+    console.log("can't successfully oppose compensation")
+}
 //Question 1 CYOA
 if (ans ==  3805){
     LegitimatePresident += 1;
+    campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/j5kdrmpG/MOW-Butler-Candidate.png";
+    campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/fb8Mx1RJ/MOW-Child-Candidate.png";
+    campaignTrail_temp.candidate_last_name = "Butler";
+    campaignTrail_temp.running_mate_last_name = "Child";
+    corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“In short, I was a racketeer, a gangster for capitalism.” - Smedley D. Butler</em></font>\n            ';
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#434343";
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#6e6e6e";
+    document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+    $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+    $(".container")[0].style.backgroundColor = "#999999";
+    document.getElementById("header").src = "https://i.postimg.cc/qv8RCmK3/MOW-Butler-Banner.png";
+    document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#c4c4c4!important;}</style>";
+    }
+if (ans ==  3806){
+    campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/j5kdrmpG/MOW-Butler-Candidate.png";
+    campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/fb8Mx1RJ/MOW-Child-Candidate.png";
+    campaignTrail_temp.candidate_last_name = "Butler";
+    campaignTrail_temp.running_mate_last_name = "Child";
+    corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“In short, I was a racketeer, a gangster for capitalism.” - Smedley D. Butler</em></font>\n            ';
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#434343";
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#6e6e6e";
+    document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+    $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+    $(".container")[0].style.backgroundColor = "#999999";
+    document.getElementById("header").src = "https://i.postimg.cc/qv8RCmK3/MOW-Butler-Banner.png";
+    document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#c4c4c4!important;}</style>";
     }
 if (ans == 13472){
     LegitimatePresident += 2;
+    campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/j5kdrmpG/MOW-Butler-Candidate.png";
+    campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/fb8Mx1RJ/MOW-Child-Candidate.png";
+    campaignTrail_temp.candidate_last_name = "Butler";
+    campaignTrail_temp.running_mate_last_name = "Child";
+    corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“In short, I was a racketeer, a gangster for capitalism.” - Smedley D. Butler</em></font>\n            ';
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#434343";
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#6e6e6e";
+    document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+    $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+    $(".container")[0].style.backgroundColor = "#999999";
+    document.getElementById("header").src = "https://i.postimg.cc/qv8RCmK3/MOW-Butler-Banner.png";
+    document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#c4c4c4!important;}</style>";
+    }
+if (ans ==  13473){
+    campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/j5kdrmpG/MOW-Butler-Candidate.png";
+    campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/fb8Mx1RJ/MOW-Child-Candidate.png";
+    campaignTrail_temp.candidate_last_name = "Butler";
+    campaignTrail_temp.running_mate_last_name = "Child";
+    corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“In short, I was a racketeer, a gangster for capitalism.” - Smedley D. Butler</em></font>\n            ';
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#434343";
+    nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#6e6e6e";
+    document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+    $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+    $(".container")[0].style.backgroundColor = "#999999";
+    document.getElementById("header").src = "https://i.postimg.cc/qv8RCmK3/MOW-Butler-Banner.png";
+    document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#c4c4c4!important;}</style>";
     }
 //Question 2 CYOA
 if (ans ==  13476){
@@ -7653,6 +8006,15 @@ if (ans ==  13489){
 if (ans == 13491){
     NECApproval -= 1;
 }
+//Question 4 CYOA
+if (ans ==  13504){
+    campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/fb8Mx1RJ/MOW-Child-Candidate.png";
+    campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/WzN8V3J4/MOW-Vacant-Candidate.png";
+    campaignTrail_temp.candidate_last_name = "Child";
+    campaignTrail_temp.running_mate_last_name = "Vacant";
+    corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“We do not argue with those who disagree with us, we destroy them.” - Benito Mussolini</em></font>\n            ';
+    document.getElementById("header").src = "https://i.postimg.cc/MpvsXv3M/MOW-Washburn-Banner.png";
+    }
 //Question 7 CYOA
 if (ans ==  13562){
     PartyComposition -= 2;
@@ -7670,6 +8032,13 @@ if (ans == 13592){
 }
 if (ans == 13593){
     MussoliniMeter += 1;
+}
+//Question 9 CYOA
+if (ans ==  13598){
+    campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/fb8Mx1RJ/MOW-Child-Candidate.png";
+    campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/Qtkmv5CP/MOW-Murphy-Candidate.png";
+    campaignTrail_temp.candidate_last_name = "Child";
+    campaignTrail_temp.running_mate_last_name = "Murphy";
 }
 //Question 10 CYOA
 if (ans == 13602){
@@ -7717,6 +8086,16 @@ if (ans == 13719){
     PFLATicket += 2;
     MussoliniMeter += 1;
     IWWAgitation += 1;
+}
+//Question 12 CYOA
+if (ans == 13732){
+    Isolationism -= 1;
+}
+if (ans == 13733){
+    Isolationism -= 2;
+}
+if (ans == 13734){
+    Isolationism -= 2;
 }
 }
 
@@ -7772,12 +8151,79 @@ function openHeadquarter() {
     /*
     Leaving this in here: instead of having the functions in the text, if you want, you can have the text change based on the number from the function, like so. You'll need to create a secondary function to hold the text, and then call that function in the text. - Astro
     */
-    
+    //Legislative Goodwill
     if (LegislativeGoodwill < 1) {
         CongressScore = 'hostile'
     }
     if (LegislativeGoodwill > 0) {
         CongressScore = 'willing to work with you'
+    }
+    //NEC Approval
+    if (NECApproval > 9) {
+        NECHappy = 'a positive'
+    }
+    if (NECApproval < 10 && NECApproval > 6) {
+        NECHappy = 'a nuanced'
+    }
+    if (NECApproval < 7 && NECApproval > 2) {
+        NECHappy = 'a poor'
+    }
+    if (NECApproval < 3) {
+        NECHappy = 'an abysmal'
+    }
+    //Mussolini Meter
+    if (MussoliniMeter < 5) {
+        Fashy = 'nonexistent'
+    }
+    if (MussoliniMeter > 4 && MussoliniMeter < 9) {
+        Fashy = 'few and far between'
+    }
+    if (MussoliniMeter > 8 && MussoliniMeter < 13) {
+        Fashy = 'notworthy'
+    }
+    if (MussoliniMeter > 12 && MussoliniMeter < 17) {
+        Fashy = 'striking'
+    }
+    if (MussoliniMeter > 16) {
+        Fashy = 'blindingly obvious'
+    }
+    //Isolationism
+    if (Isolationism > 9) {
+        IsolationLevel = 'isolationist'
+    }
+    if (Isolationism < 10 && Isolationism > 7) {
+        IsolationLevel = 'defensive'
+    }
+    if (Isolationism < 8 && Isolationism > 5) {
+        IsolationLevel = 'cautious'
+    }
+    if (Isolationism < 6 && Isolationism > 3) {
+        IsolationLevel = 'pragmatic'
+    }
+    if (Isolationism < 4 && Isolationism > 0) {
+        IsolationLevel = 'interventionist'
+    }
+    if (Isolationism < 1) {
+        IsolationLevel = 'aggressive'
+    }
+    //IWWAgitation
+    if (IWWAgitation < 1) {
+        WobbleLevel = 'docile'
+    }
+    if (IWWAgitation > 0 && IWWAgitation < 3) {
+        WobbleLevel = 'frustrated'
+    }
+    if (IWWAgitation > 2 && IWWAgitation < 6) {
+        WobbleLevel = 'agitated'
+    }
+    if (IWWAgitation > 5 && IWWAgitation < 9) {
+        WobbleLevel = 'furious'
+    }
+    if (IWWAgitation > 8 && IWWAgitation < 111) {
+        WobbleLevel = 'irate'
+    }
+    if (IWWAgitation > 10) {
+        WobbleLevel = 'in open revolt'
     }
   
     let questions = document.querySelector(".inner_window_question");
@@ -7860,23 +8306,42 @@ function openHeadquarter() {
     Congress.textContent = 'Congress is ' + CongressScore + '.'; // This is the text that will be displayed. You can change this to whatever you want. ' + function + ' will display the number from the function.
     // a.style.flexGrow = '0.1';  // Make h3 take up the maximum space available
     Congress.style.color = 'black'; // Can be used to change the color of the text
+    Congress.style.fontSize = '20px';
+    Congress.style.fontWeight = 'bold';
     Congress.style.margin = '8px'; // Can be used to change the space in between the text. Useful if you have a lot of functions.
     hqDiv.appendChild(Congress);
 
-    let b = document.createElement('p');
-    b.textContent = '' + bliss + ' opponents have been attacked during the course of the Democratic Primary.';
-    b.style.color = 'black';
-    b.style.margin = '8px';
-    hqDiv.appendChild(b);
+    let NECRelations = document.createElement('p');
+    NECRelations.textContent = 'The National Emergency Committee has ' + NECHappy + ' opinion of your leadership.';
+    NECRelations.style.color = 'black';
+    NECRelations.style.fontSize = '20px';
+    NECRelations.style.fontWeight = 'bold'; 
+    NECRelations.style.margin = '8px';
+    hqDiv.appendChild(NECRelations);
 
-    // Image
-    let img = document.createElement('img');
-    img.src = 'https://itsastronomical.com/assets/1912/wilsonbanner.png';
-    img.style.height = '30%';
-    img.style.marginLeft = '1em';
-    img.style.flexGrow = '0.1';
-    img.style.border = '3px solid black';  // Add thin white border to the image
-    hqDiv.appendChild(img);
+    let ChildCult = document.createElement('p');
+    ChildCult.textContent = 'The populace think the similarities between you and Mussolini are ' + Fashy + '.';
+    ChildCult.style.color = 'black';
+    ChildCult.style.fontSize = '20px';
+    ChildCult.style.fontWeight = 'bold';
+    ChildCult.style.margin = '8px';
+    hqDiv.appendChild(ChildCult);
+
+    let ForeignPolicy = document.createElement('p');
+    ForeignPolicy.textContent = 'Your foreign policy is viewed as ' + IsolationLevel + '.';
+    ForeignPolicy.style.color = 'black';
+    ForeignPolicy.style.fontSize = '20px';
+    ForeignPolicy.style.fontWeight = 'bold';
+    ForeignPolicy.style.margin = '8px';
+    hqDiv.appendChild(ForeignPolicy);
+
+    let AngryWobblies = document.createElement('p');
+    AngryWobblies.textContent = 'The Industrial Workers of the World, and the left as a whole, are currently ' + WobbleLevel + '.';
+    AngryWobblies.style.color = 'black';
+    AngryWobblies.style.fontSize = '20px';
+    AngryWobblies.style.fontWeight = 'bold';
+    AngryWobblies.style.margin = '8px';
+    hqDiv.appendChild(AngryWobblies);
     
 }
 
