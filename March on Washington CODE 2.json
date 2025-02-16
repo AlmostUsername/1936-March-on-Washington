@@ -538,7 +538,7 @@ campaignTrail_temp.questions_json = [
         "pk": 15396,
         "fields": {
             "priority": 131,
-            "description": "You’re woken up one night by a firm knock on the door. Hoover struts in as you turn on the bedside lamp, poising himself over your bed with that air of menace so innate to him. He holds out a file, launching into an explanation before you’ve even opened it.<br>“It’s Paul Comly French, sir. An associate of Butler’s who moved to Canada when he was killed. We have discovered that he is in possession of letters from the former President containing views on your administration that run counter to the existing narrative - letters he wants to make public.” Dorothy gasps. You feel your hands begin to twitch. “We believe we still have time to apprehend him and prevent such an outcome, but I will need your permission to sign off on those orders.”",
+            "description": "You’re woken up one night by a firm knock on the door. Edgar Hoover struts in as you turn on the bedside lamp, poising himself over your bed with that air of menace so innate to him. He holds out a file, launching into an explanation before you’ve even opened it.<br>“It’s Paul Comly French, sir. An associate of Butler’s who moved to Canada when he was killed. We have discovered that he is in possession of letters from the former President containing views on your administration that run counter to the existing narrative - letters he wants to make public.” Dorothy gasps. You feel your hands begin to twitch. “We believe we still have time to apprehend him and prevent such an outcome, but I will need your permission to sign off on those orders.”",
             "likelihood": 1
         }
     },
@@ -547,7 +547,7 @@ campaignTrail_temp.questions_json = [
         "pk": 15403,
         "fields": {
             "priority": 131,
-            "description": "You’re in the throes of an extravagant banquet with some donors when Hoover casually strides up to you, pulling you into a side room. His expression is more grim than usual.<br>“Mister President, I’m afraid a number of letters by your predecessor outlining his hatred for you and your allies have been made public.” Your throat dries up, muting your attempt at a response. “The man responsible is Paul Comly French, a former associate of Butler’s who fled Canada after his death. We’ve had eyes on him for a while, but it seems these documents were overlooked. If you wish, we can take care of him before he can capitalize on their publication.”",
+            "description": "You’re in the throes of an extravagant banquet with some donors when Edgar Hoover casually strides up to you, pulling you into a side room. His expression is more grim than usual.<br>“Mister President, I’m afraid a number of letters by your predecessor outlining his hatred for you and your allies have been made public.” Your throat dries up, muting your attempt at a response. “The man responsible is Paul Comly French, a former associate of Butler’s who fled Canada after his death. We’ve had eyes on him for a while, but it seems these documents were overlooked. If you wish, we can take care of him before he can capitalize on their publication.”",
             "likelihood": 1
         }
     },
@@ -736,7 +736,7 @@ campaignTrail_temp.questions_json = [
         "pk": 15918,
         "fields": {
             "priority": 135,
-            "description": "You’re midway through a meeting with the NEC concerning the final events of your campaign when the shrill ring of a telephone silences the room. You can practically hear the sweat dripping down Hoover’s face as the normally assertive man squeaks out the news. Bands of armed unionists, no doubt associated with the IWW, have risen up across the Rust Belt in revolution against your regime, bringing with them a majority of the population. Whole battalions of the National Guard have defected, and local Legion groups, outnumbered, have been disarmed or gone down fighting. Whether or not this means further uprisings are inevitable is unknown, but, in effect, the Great Lakes are currently under the occupation of a hostile force.<br><br>You look up from the desk, seeing dread reflected back at you in the faces of your co-conspirators. All the work, all the throats you cut… It can’t be for nothing. It won't be.<br>Your grip on the handset tightens.",
+            "description": "You’re midway through a meeting with the NEC concerning the final events of your campaign when the shrill ring of a telephone silences the room. You can practically hear the sweat dripping down Edgar Hoover’s face as the normally assertive man squeaks out the news. Bands of armed unionists, no doubt associated with the IWW, have risen up across the Rust Belt in revolution against your regime, bringing with them a majority of the population. Whole battalions of the National Guard have defected, and local Legion groups, outnumbered, have been disarmed or gone down fighting. Whether or not this means further uprisings are inevitable is unknown, but, in effect, the Great Lakes are currently under the occupation of a hostile force.<br><br>You look up from the desk, seeing dread reflected back at you in the faces of your co-conspirators. All the work, all the throats you cut… It can’t be for nothing. It won't be.<br>Your grip on the handset tightens.",
             "likelihood": 1
         }
     }
@@ -828,7 +828,7 @@ campaignTrail_temp.answers_json = [
         "pk": 13490,
         "fields": {
             "question": 13502,
-            "description": "Hearst has an interesting strategy. He thinks that, if we provoke these folks into violence, we can use it as an excuse to demonize them in the media. I'll tell Hoover to sneak some of his boys into the crowd to rile them up, whilst the NEC can contact Ochs, Baillie, and anybody else we can trust to give us favorable coverage."
+            "description": "Hearst has an interesting strategy. He thinks that, if we provoke these folks into violence, we can use it as an excuse to demonize them in the media. I'll tell Edgar Hoover to sneak some of his boys into the crowd to rile them up, whilst the NEC can contact Ochs, Baillie, and anybody else we can trust to give us favorable coverage."
         }
     },
     {
@@ -876,7 +876,7 @@ campaignTrail_temp.answers_json = [
         "pk": 13514,
         "fields": {
             "question": 13509,
-            "description": "Olson might seem like the main threat, but these riots in the Midwest could really hurt our industrial base if we don’t deal with them. I’ll phone the governors and get them to break up these crowds immediately, with federal assistance in need be, whilst Hoover and his boys can work on getting the rogue governor."
+            "description": "Olson might seem like the main threat, but these riots in the Midwest could really hurt our industrial base if we don’t deal with them. I’ll phone the governors and get them to break up these crowds immediately, with federal assistance in need be, whilst Edgar Hoover and his boys can work on getting the rogue governor."
         }
     },
     {
@@ -884,7 +884,7 @@ campaignTrail_temp.answers_json = [
         "pk": 13515,
         "fields": {
             "question": 13509,
-            "description": "Olson might seem like the main threat, but these riots in the West could gum up pacific trade if we don’t deal with them. I’ll phone the governors and get them to break up these crowds immediately, with federal assistance in need be, whilst Hoover and his boys can work on getting the rogue governor."
+            "description": "Olson might seem like the main threat, but these riots in the West could gum up pacific trade if we don’t deal with them. I’ll phone the governors and get them to break up these crowds immediately, with federal assistance in need be, whilst Edgar Hoover and his boys can work on getting the rogue governor."
         }
     },
     {
@@ -1876,7 +1876,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14653,
         "fields": {
             "question": 14652,
-            "description": "Unsurprisingly, the current political climate means I must decline sending aid, but I’m still willing to do what I can domestically to prevent a socialist Spain. According to Hoover, there’s a good number of our own citizens who intend to travel abroad to join the anarchists’ revolution. We’ll do our best to crack down on these traitors-by-proxy."
+            "description": "Unsurprisingly, the current political climate means I must decline sending aid, but I’m still willing to do what I can domestically to prevent a socialist Spain. According to Edgar Hoover, there’s a good number of our own citizens who intend to travel abroad to join the anarchists’ revolution. We’ll do our best to crack down on these traitors-by-proxy."
         }
     },
     {
@@ -2340,7 +2340,7 @@ campaignTrail_temp.answers_json = [
         "pk": 15456,
         "fields": {
             "question": 15455,
-            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
+            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Edgar Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
         }
     },
     {
@@ -2372,7 +2372,7 @@ campaignTrail_temp.answers_json = [
         "pk": 15483,
         "fields": {
             "question": 15482,
-            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
+            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Edgar Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
         }
     },
     {
@@ -2404,7 +2404,7 @@ campaignTrail_temp.answers_json = [
         "pk": 15514,
         "fields": {
             "question": 15513,
-            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
+            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Edgar Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
         }
     },
     {
@@ -2436,7 +2436,7 @@ campaignTrail_temp.answers_json = [
         "pk": 15549,
         "fields": {
             "question": 15548,
-            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
+            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Edgar Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
         }
     },
     {
@@ -2468,7 +2468,7 @@ campaignTrail_temp.answers_json = [
         "pk": 15575,
         "fields": {
             "question": 15574,
-            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
+            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Edgar Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
         }
     },
     {
@@ -2500,7 +2500,7 @@ campaignTrail_temp.answers_json = [
         "pk": 15606,
         "fields": {
             "question": 15605,
-            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
+            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Edgar Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
         }
     },
     {
@@ -2532,7 +2532,7 @@ campaignTrail_temp.answers_json = [
         "pk": 15641,
         "fields": {
             "question": 15640,
-            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
+            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Edgar Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
         }
     },
     {
@@ -2564,7 +2564,7 @@ campaignTrail_temp.answers_json = [
         "pk": 15667,
         "fields": {
             "question": 15666,
-            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
+            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Edgar Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
         }
     },
     {
@@ -2596,7 +2596,7 @@ campaignTrail_temp.answers_json = [
         "pk": 15698,
         "fields": {
             "question": 15697,
-            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
+            "description": "Calm, okay? We need calm. We don't want another Coal War on our hands. Governor Kump needs to mobilize the National Guard and tell them to garrison the surrounding towns, cordoning off the socialists. Under no circumstances can they attack - that will only make things worse. In the meantime, Edgar Hoover will work on sabotaging the uprising leadership. If we play our cards right, they'll collapse without us firing a shot."
         }
     },
     {
@@ -26949,7 +26949,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13507,
             "candidate": 116,
-            "answer_feedback": "You're cut off as a chorus of gasps echo through the cathedral. Your eyes briefly meet J. Edgard Hoover's, and he flashes you a barely perceptible smile."
+            "answer_feedback": "You're cut off as a chorus of gasps echo through the cathedral. Your eyes briefly meet J. Edgar Hoover's, and he flashes you a barely perceptible smile."
         }
     },
     {
@@ -28101,7 +28101,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14653,
             "candidate": 116,
-            "answer_feedback": "Hoover’s boys camp in the ports, detaining any leftist who attempts to travel to Europe, whilst the Department of Commerce seizes thousands of dollars worth of donations intended for the Anarchist Black Cross. That evening, Murphy delivers an impassioned radio address decrying the prosecuted as “architects of treason and subterfuge”, threatening anyone who dares to get involved in Spain with the full force of the law. You later clarify to the CEO of Texaco that your VP was only talking about socialists, and the oil shipments to the Nationalists are allowed to continue."
+            "answer_feedback": "Edgar Hoover’s boys camp in the ports, detaining any leftist who attempts to travel to Europe, whilst the Department of Commerce seizes thousands of dollars worth of donations intended for the Anarchist Black Cross. That evening, Murphy delivers an impassioned radio address decrying the prosecuted as “architects of treason and subterfuge”, threatening anyone who dares to get involved in Spain with the full force of the law. You later clarify to the CEO of Texaco that your VP was only talking about socialists, and the oil shipments to the Nationalists are allowed to continue."
         }
     },
     {
@@ -28578,7 +28578,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15406,
             "candidate": 116,
-            "answer_feedback": "The shooter misses and is subsequently detained by the Ottawa police, who manage to identify him as one of Hoover's boys. The revelation not only confirms the legitimacy of the letters in the eyes of the public, but sees the rise of a new conspiracy theory about Butler's death. After all, if you were willing to send someone to kill French…"
+            "answer_feedback": "The shooter misses and is subsequently detained by the Ottawa police, who manage to identify him as one of Edgar Hoover's boys. The revelation not only confirms the legitimacy of the letters in the eyes of the public, but sees the rise of a new conspiracy theory about Butler's death. After all, if you were willing to send someone to kill French…"
         }
     },
     {
@@ -28659,7 +28659,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15483,
             "candidate": 116,
-            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
+            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Edgar Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
         }
     },
     {
@@ -28695,7 +28695,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15514,
             "candidate": 116,
-            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
+            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Edgar Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
         }
     },
     {
@@ -28767,7 +28767,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15575,
             "candidate": 116,
-            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
+            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Edgar Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
         }
     },
     {
@@ -28803,7 +28803,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15606,
             "candidate": 116,
-            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
+            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Edgar Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
         }
     },
     {
@@ -28875,7 +28875,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15667,
             "candidate": 116,
-            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
+            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Edgar Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
         }
     },
     {
@@ -28911,7 +28911,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15698,
             "candidate": 116,
-            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
+            "answer_feedback": "The region is locked into an uncomfortable stalemate as union militias stare down National Guard units, neither willing to fire the first shot. Edgar Hoover’s men become increasingly exasperated as the uprising’s horizontal structure undermines the effectiveness of their targeted assassinations. West Virginia will go into election day as the only state not fully under government control."
         }
     },
     {
@@ -29199,7 +29199,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15919,
             "candidate": 116,
-            "answer_feedback": "From Seattle to Miami, revolutionaries and loyalists scramble to occupy town centers before the opposition can, local governments collapsing under the weight of their employees’ split allegiances. Where the state fails to maintain order, workers seize factories and form councils, bringing the wrath of a scorned class to their former oppressors. Every new report tells a bleaker and muddier story than the last, but one thing is clear:<br>the Second American Civil War has begun."
+            "answer_feedback": "From Seattle to Miami, revolutionaries and loyalists scramble to occupy town centers before the opposition can, local governments collapsing under the weight of their employees’ split allegiances. Where the state fails to maintain order, workers seize factories and form councils, bringing the wrath of a scorned class to their former oppressors. Every new report tells a bleaker and muddier story than the last, but one thing is clear:the Second American Civil War has begun."
         }
     }
 ]
@@ -29219,6 +29219,69 @@ campaignTrail_temp.jet_data = [{
 ]
 
 //Jet's Tool edits the code from this point upwards
+
+//Tooltips
+function getTooltips(str) {
+    let matches = [];
+
+    tooltipList.forEach((tooltip, index) => {
+        // Adjust the regex to match searchString potentially surrounded by “ and followed by optional punctuation
+       let regex = new RegExp(`(?<=\\b|\\s|^|“)${tooltip.searchString}(?=[.,;!?]?\\b|\\s|”|$)`, 'g');
+
+
+        let match;
+        while ((match = regex.exec(str)) !== null) {
+            matches.push({
+                start: match.index + (match[0].startsWith('“') ? 1 : 0), // Adjust for potential starting “
+                end: match.index + match[0].length - (match[0].endsWith('”') ? 1 : 0) - (match[2] ? 1 : 0), 
+                tooltipIndex: index
+            });
+        }
+    });
+
+    // Sort by starting position; if two start at the same position, longer match comes first
+    matches.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
+
+    // Filter out overlaps
+    for (let i = 0; i < matches.length - 1; ) {
+        if (matches[i + 1].start < matches[i].end) {
+            matches.splice(i + 1, 1); // Remove the next match since it overlaps
+        } else {
+            i++; // Move to next match
+        }
+    }
+
+    return matches;
+}
+function applyTooltips(str) {
+    const matches = getTooltips(str);
+    let result = '';
+    let lastIndex = 0;
+
+    matches.forEach(match => {
+        const tooltip = tooltipList[match.tooltipIndex];
+        result += str.slice(lastIndex, match.start);
+        result += `<span class='mytooltip'>${tooltip.searchString}<span class='mytooltiptext'>${tooltip.explanationText}</span></span>`;
+        lastIndex = match.end;
+    });
+
+    result += str.slice(lastIndex); // Add the remainder of the original string
+    return result;
+}
+
+function applyTooltipsToObject(obj) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'string') {
+            obj[key] = applyTooltips(obj[key]);
+        } else if (typeof obj[key] === 'object') {
+            applyTooltipsToObject(obj[key]); // Recursive call
+        }
+    }
+}
+
+applyTooltipsToObject(campaignTrail_temp.questions_json);
+applyTooltipsToObject(campaignTrail_temp.answers_json);
+applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
 
 //Formatting
 campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/Y9w8X8rY/MOW-Coxey-Candidate.png";

@@ -1,3 +1,66 @@
+function addDynamicCSS() {
+    var css = `
+        .inner_window_question h3 .mytooltip{
+            background-color: #6e6e6e;
+        }
+
+        .mytooltip {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            background-color: #6e6e6e;
+        }
+
+        .mytooltip .mytooltiptext {
+            width: 400px;
+            background-color: #6e6e6e;
+            color: Black;
+            text-align: center;
+            border-radius: 6px;
+            padding: 10px;
+            position: absolute;
+            z-index: 99;
+            bottom: 20%;
+            left: 20%;
+            margin-left: -90px;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border-style: double;
+	        border-color: #434343;
+            pointer-events: none;
+            font-size: 13px !important;
+            line-height: 1.5em !important;
+            font-weight: normal !important;
+            font-style: normal !important;
+        }
+
+        .mytooltip .mytooltiptext img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .mytooltip:hover .mytooltiptext {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+    `;
+
+    var styleElem = document.createElement('style');
+    styleElem.type = 'text/css';
+    
+    styleElem.appendChild(document.createTextNode(css));
+    
+    document.head.appendChild(styleElem);
+}
+
+
+addDynamicCSS();
+
+tooltipList = [
+    {searchString: "Edgar Hoover", explanationText: "<img src='https://i.postimg.cc/fyyz1c5T/MOW-Hoover-Infobox.png'><br>John Edgar Hoover, Director of the Bureau of Investigation, is, despite not being a member of the NEC, one of the most important men in the post-coup administration, overseeing domestic intelligence operations. Being a conservative and staunch anti-socialist, he has no qualms doing the Committee's dirty work, and will willingly ‘deal’ with anyone he views as a threat to his vision of America."},
+    {searchString: "Dorothy", explanationText: "Dorothy Child, your fourth wife and the one of the only people in your life who will support you ‘till the end."},
+];
+
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -293,7 +356,7 @@ campaignTrail_temp.opponents_weighted_json = [
 campaignTrail_temp.temp_election_list = [
     {
         "id": 12,
-        "year": 1948,
+        "year": 1936,
         "is_premium": 0,
         "display_year": "1936 March On Washington"
     }
