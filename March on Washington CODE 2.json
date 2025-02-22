@@ -52,7 +52,7 @@ campaignTrail_temp.questions_json = [
         "pk": 13506,
         "fields": {
             "priority": 5,
-            "description": "Butler's casket is marched through the streets of the capital, draped in an American flag, as mourners line the street, hoping to get one final glance of the legendary general before he is laid to rest. A hundred somber faces stare back at you as you step up to the pulpit in Washington National Cathedral for your first speech as President of the United States. The uncertainty in the room is palpable. Who would want to kill such a beloved man? Why would they consider such a thing? And, most importantly, what would happen now?<br>You clear your throat.",
+            "description": "Butler's casket is marched through the streets of the capital, draped in an American flag, as mourners line the street, hoping to get one final glance of the legendary general before he is laid to rest. A hundred somber faces stare back at you as you step up to the pulpit in Washington National Cathedral for your first speech as President of the United States. The uncertainty in the room is palpable. Who would want to kill such a beloved man? Why would they consider such a thing? And, most importantly, what would happen now?<br><br>You clear your throat.",
             "likelihood": 1
         }
     },
@@ -286,7 +286,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14216,
         "fields": {
             "priority": 118,
-            "description": "Out west, the Dust Bowl has continued to ravage the farmlands, further plunging thousands of farmers into poverty and severely disrupting food prices across the nation. Like Coolidge before you, your administration has taken a laissez-faire stance on economics, and, as such, has refused to intervene thus far, yet the severity of the issues the Dust Bowl is causing has led some within your own party to advocate a government response. The NEC warns against interventionism, believing it will harm the economic recovery of the nation, but has offered very few solutions in its stead.",
+            "description": "Out west, the Dust Bowl has continued to ravage the farmlands, further destroying the livelihoods of thousands of farmers and severely disrupting the already volatile food prices across the nation. Like Coolidge before you, your administration has taken a laissez-faire stance on economics, and, as such, has refused to intervene thus far, yet the severity of the issues the Dust Bowl is causing has led some within your own party to advocate a government response. The NEC warns against interventionism, believing it will harm the economic recovery of the nation, but has offered very few solutions in its stead.",
             "likelihood": 1
         }
     },
@@ -295,7 +295,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14258,
         "fields": {
             "priority": 118,
-            "description": "Out west, the Dust Bowl has continued to ravage the farmlands, further plunging thousands of farmers into poverty and severely disrupting food prices across the nation. Like Coolidge before you, your administration has taken a laissez-faire stance on economics, and, as such, has refused to intervene thus far, yet the severity of the issues the Dust Bowl is causing has led some within your own party to advocate a government response. The NEC warns against interventionism, believing it will harm the economic recovery of the nation, but has offered very few solutions in its stead.",
+            "description": "Out west, the Dust Bowl has continued to ravage the farmlands, further destroying the livelihoods of thousands of farmers and severely disrupting the already volatile food prices across the nation. Like Coolidge before you, your administration has taken a laissez-faire stance on economics, and, as such, has refused to intervene thus far, yet the severity of the issues the Dust Bowl is causing has led some within your own party to advocate a government response. The NEC warns against interventionism, believing it will harm the economic recovery of the nation, but has offered very few solutions in its stead.",
             "likelihood": 1
         }
     },
@@ -304,7 +304,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14301,
         "fields": {
             "priority": 118,
-            "description": "Out west, the Dust Bowl has continued to ravage the farmlands, further plunging thousands of farmers into poverty and severely disrupting food prices across the nation. Like Coolidge before you, your administration has taken a laissez-faire stance on economics, and, as such, has refused to intervene thus far, yet the severity of the issues the Dust Bowl is causing has led some within your own party to advocate a government response. The NEC warns against interventionism, believing it will harm the economic recovery of the nation, but has offered very few solutions in its stead.",
+            "description": "Out west, the Dust Bowl has continued to ravage the farmlands, further destroying the livelihoods of thousands of farmers and severely disrupting the already volatile food prices across the nation. Like Coolidge before you, your administration has taken a laissez-faire stance on economics, and, as such, has refused to intervene thus far, yet the severity of the issues the Dust Bowl is causing has led some within your own party to advocate a government response. The NEC warns against interventionism, believing it will harm the economic recovery of the nation, but has offered very few solutions in its stead.",
             "likelihood": 1
         }
     },
@@ -313,7 +313,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14343,
         "fields": {
             "priority": 118,
-            "description": "Out west, the Dust Bowl has continued to ravage the farmlands, further plunging thousands of farmers into poverty and severely disrupting food prices across the nation. Like Coolidge before you, your administration has taken a laissez-faire stance on economics, and, as such, has refused to intervene thus far, yet the severity of the issues the Dust Bowl is causing has led some within your own party to advocate a government response. The NEC warns against interventionism, believing it will harm the economic recovery of the nation, but has offered very few solutions in its stead.",
+            "description": "Out west, the Dust Bowl has continued to ravage the farmlands, further destroying the livelihoods of thousands of farmers and severely disrupting the already volatile food prices across the nation. Like Coolidge before you, your administration has taken a laissez-faire stance on economics, and, as such, has refused to intervene thus far, yet the severity of the issues the Dust Bowl is causing has led some within your own party to advocate a government response. The NEC warns against interventionism, believing it will harm the economic recovery of the nation, but has offered very few solutions in its stead.",
             "likelihood": 1
         }
     },
@@ -403,7 +403,7 @@ campaignTrail_temp.questions_json = [
         "pk": 14652,
         "fields": {
             "priority": 25,
-            "description": "It’s happened. The fires of war and revolution have finally spread back to Europe. Following the collapse of his government just before Christmas, Prime Minister Gil-Robles of Spain has couped President Alcalá-Zamora and instituted martial law. Almost instantaneously, a revolution has broken out in opposition to this move, with the anarchist CNT-FAI occupying a third of the country, including major cities like Barcelona and Valencia, and plunging the nation into a civil war. With Italy’s war machine tied down in Ethiopia, Gil-Robles has turned to the US for aid in holding back the red tide before it swallows the Iberian Peninsula whole.",
+            "description": "It’s happened. The fires of war and revolution have finally spread back to Europe. Following the collapse of his government just before Christmas, Prime Minister Gil-Robles of Spain has couped President Alcalá-Zamora and instituted martial law. Almost instantaneously, a revolution has broken out in opposition to this move, with the anarchist CNT-FAI occupying a third of the country, including major cities like Barcelona and Valencia, and plummeting the nation into a civil war. With Italy’s war machine tied down in Ethiopia, Gil-Robles has turned to the US for aid in holding back the red tide before it swallows the Iberian Peninsula whole.",
             "likelihood": 1
         }
     },
@@ -538,7 +538,7 @@ campaignTrail_temp.questions_json = [
         "pk": 15396,
         "fields": {
             "priority": 131,
-            "description": "You’re woken up one night by a firm knock on the door. Edgar Hoover struts in as you turn on the bedside lamp, poising himself over your bed with that air of menace so innate to him. He holds out a file, launching into an explanation before you’ve even opened it.<br>“It’s Paul Comly French, sir. An associate of Butler’s who moved to Canada when he was killed. We have discovered that he is in possession of letters from the former President containing views on your administration that run counter to the existing narrative - letters he wants to make public.” Dorothy gasps. You feel your hands begin to twitch. “We believe we still have time to apprehend him and prevent such an outcome, but I will need your permission to sign off on those orders.”",
+            "description": "You’re woken up one night by a firm knock on the door. Hoover struts in as you turn on the bedside lamp, poising himself over your bed with that air of menace so innate to him. He holds out a file, launching into an explanation before you’ve even opened it.<br>“It’s Paul Comly French, sir. An associate of Butler’s who moved to Canada when he was killed. We have discovered that he is in possession of letters from the former President containing information about what you and the Committee did to, ahem, convince him to cooperate with your plans - letters this associate wants to make public.” Dorothy gasps. You feel your hands begin to twitch. “We believe we still have time to apprehend him and prevent such an outcome, but I will need your permission to sign off on those orders.”",
             "likelihood": 1
         }
     },
@@ -547,7 +547,7 @@ campaignTrail_temp.questions_json = [
         "pk": 15403,
         "fields": {
             "priority": 131,
-            "description": "You’re in the throes of an extravagant banquet with some donors when Edgar Hoover casually strides up to you, pulling you into a side room. His expression is more grim than usual.<br>“Mister President, I’m afraid a number of letters by your predecessor outlining his hatred for you and your allies have been made public.” Your throat dries up, muting your attempt at a response. “The man responsible is Paul Comly French, a former associate of Butler’s who fled Canada after his death. We’ve had eyes on him for a while, but it seems these documents were overlooked. If you wish, we can take care of him before he can capitalize on their publication.”",
+            "description": "You’re in the throes of an extravagant banquet with some donors when Edgar Hoover casually strides up to you, pulling you into a side room. His expression is more grim than usual.<br>“Mister President, I’m afraid a number of sensitive letters by your predecessor have been made public.” Your throat dries up, muting your attempt at a response. The attempted bribes, the threats on his life. Christ, what if they knew about his family?!<br>John clears his throat. “We've identified the man responsible as Paul Comly French, a former associate of Butler’s who fled Canada after his death. We’ve had eyes on him for a while, but it seems these documents were overlooked. If you wish, we can take care of him before he can capitalize on their publication.”",
             "likelihood": 1
         }
     },
@@ -772,7 +772,7 @@ campaignTrail_temp.answers_json = [
         "pk": 13473,
         "fields": {
             "question": 13500,
-            "description": "There’s no way I'm going to convince the old man to move, Phil, there just isn’t. We may as well try his tactic. Against all odds, this man won the presidency - I hope he can convince these misguided men to leave us alone."
+            "description": "There’s no way I'm going to convince the old man to move, Phil, there just isn’t. We may as well try his tactic. Against all odds, this man won the presidency - I hope he can convince these misguided folks to leave us alone."
         }
     },
     {
@@ -820,7 +820,7 @@ campaignTrail_temp.answers_json = [
         "pk": 13489,
         "fields": {
             "question": 13502,
-            "description": "Considering our precarious position, the last thing we need is to be seen as weak because we chose to coddle these uppity radicals. Ford and Morgan have the right idea; send in the National Guard, and have them break up the protests before they become riots."
+            "description": "Considering our precarious position, the last thing we need is to be seen as weak because we chose to coddle these uppity radicals. Ford and Morgan have the right idea; send in the National Guard and have them break up the protests before they become riots."
         }
     },
     {
@@ -1644,7 +1644,7 @@ campaignTrail_temp.answers_json = [
         "pk": 14389,
         "fields": {
             "question": 14386,
-            "description": "What if we make inroads with Calles and his new government. No, bare with me, Prescott, I know he’s a socialist, but think about it. His regime is staffed with a load of bolshevik exiles, and they despise the Soviets. If we appeal to our common enemy, they could aid us in countering narodnik influence on the continent. Maybe we could even score a trade deal?"
+            "description": "What if we make inroads with Calles and his new government? Well, new-old government... No, bare with me, Prescott, I know he’s a socialist, but think about it. His regime is staffed with a load of bolshevik exiles, and they despise the Soviets. If we appeal to our common enemy, they could aid us in countering narodnik influence on the continent. Maybe we could even score a trade deal?"
         }
     },
     {
@@ -2316,7 +2316,7 @@ campaignTrail_temp.answers_json = [
         "pk": 15424,
         "fields": {
             "question": 15422,
-            "description": "Without a central government to reinforce it, the ROA is at risk of falling into the hands of the Rhenish Commune. Keeping it stable enough to withstand a communist attack is in the interest of anti-socialists everywhere, regardless of political affiliation."
+            "description": "Without a central government to reinforce it, the Rhineland is at risk of falling into the hands of the Rhenish Commune. Keeping it stable enough to withstand a communist attack is in the interest of anti-socialists everywhere, regardless of political affiliation."
         }
     },
     {
@@ -12064,7 +12064,7 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 15827,
             "candidate": 116,
-            "affected_candidate": 118,
+            "affected_candidate": 119,
             "global_multiplier": -0.025
         }
     },
@@ -12254,7 +12254,7 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 15892,
             "candidate": 116,
-            "affected_candidate": 118,
+            "affected_candidate": 119,
             "global_multiplier": -0.03
         }
     },
@@ -12274,7 +12274,7 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 15897,
             "candidate": 116,
-            "affected_candidate": 118,
+            "affected_candidate": 119,
             "global_multiplier": 0.025
         }
     },
@@ -12314,7 +12314,7 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 15908,
             "candidate": 116,
-            "affected_candidate": 118,
+            "affected_candidate": 119,
             "global_multiplier": -0.05
         }
     },
@@ -12334,7 +12334,7 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 15913,
             "candidate": 116,
-            "affected_candidate": 118,
+            "affected_candidate": 119,
             "global_multiplier": 0.025
         }
     },
@@ -28587,7 +28587,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15423,
             "candidate": 116,
-            "answer_feedback": "Maurras barrages you with an avalanche of french swears, calls you “a Jew”, and hangs up. A few days later, a telegram from the British Foreign Office crosses your desk, thanking you for your neutrality. In Germany, communist militias begin their invasion of the ROA."
+            "answer_feedback": "Maurras barrages you with an avalanche of french swears, calls you “a Jew”, and hangs up. A few days later, a telegram from the British Foreign Office crosses your desk, thanking you for your neutrality. In Germany, communist militias begin their invasion of the Rhineland."
         }
     },
     {
@@ -28596,7 +28596,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15424,
             "candidate": 116,
-            "answer_feedback": "Though he understands your logic, Maurras feels slighted, choosing to only communicate with you via Mussolini from that point on. General Jean Degoutte readily accepts your offer to become the ROA's temporary international backer, directing American funds and equipment to their border with the communists. The Rhenish councils, once abuzz with plans of invasion, begin to simmer down."
+            "answer_feedback": "Though he understands your logic, Maurras feels slighted, choosing to only communicate with you via Mussolini from that point on. General Jean Degoutte readily accepts your offer to become the Rhineland's temporary international backer, directing American funds and equipment to their border with the communists. The Rhenish councils, once abuzz with plans of invasion, begin to simmer down."
         }
     },
     {
@@ -28605,7 +28605,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15425,
             "candidate": 116,
-            "answer_feedback": "Maurras is disappointed by the lack of direct support, but knows better than to look a gift horse in the mouth. Armed with shiny new American guns, the French fascists initiate a push northwards, prying the city of Lyon from the hands of the government and expelling the local Jewish population. Enraged by your meddling, London imposes tariffs on American Textiles, plunging the South further into poverty. In Germany, communist militias begin their invasion of the ROA."
+            "answer_feedback": "Maurras is disappointed by the lack of direct support, but knows better than to look a gift horse in the mouth. Armed with shiny new American guns, the French fascists initiate a push northwards, prying the city of Lyon from the hands of the government and expelling the local Jewish population. Enraged by your meddling, London imposes tariffs on American Textiles, plunging the South further into poverty. In Germany, communist militias begin their invasion of the Rhineland."
         }
     },
     {
@@ -28614,7 +28614,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15426,
             "candidate": 116,
-            "answer_feedback": "Despite protests from pacifist groups, 12,000 young men are dispatched to the continent to fight in the same fields their fathers and brothers did. Some laud your decision. Others decry you as a butcher. The British, for their part, punish you with a series of crippling tariffs, briefly cratering the profits of the shipping industry and instigating a series of mass layoffs. In Germany, communist militias begin their invasion of the ROA."
+            "answer_feedback": "Despite protests from pacifist groups, 12,000 young men are dispatched to the continent to fight in the same fields their fathers and brothers did. Some laud your decision. Others decry you as a butcher. The British, for their part, punish you with a series of crippling tariffs, briefly cratering the profits of the shipping industry and instigating a series of mass layoffs. In Germany, communist militias begin their invasion of the Rhineland."
         }
     },
     {
@@ -28641,7 +28641,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15458,
             "candidate": 116,
-            "answer_feedback": "MacNider halves his forces before initiating a two-pronged assault from Ohio and Kentucky, surprising the union militants, who had expected the conflict to stay within state lines. Days pass as skirmishes between the two sides sees the insurgents slowly pushed eastward, until they finally reach the  Kanawha River, where the National Guard is stationed on the opposing bank. Surrounded and surmounted, the socialists surrender, and Hatfield, despite a last minute escape attempt, is arrested."
+            "answer_feedback": "MacNider halves his forces before initiating a two-pronged assault from Ohio and Kentucky, surprising the union militants, who had expected the conflict to stay within state lines. Days pass as skirmishes between the two sides sees the insurgents slowly pushed eastward, until they finally reach the Kanawha River, where the National Guard is stationed on the opposing bank. Surrounded and surmounted, the socialists surrender, and Hatfield, despite a last minute escape attempt, is arrested."
         }
     },
     {
@@ -28677,7 +28677,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15494,
             "candidate": 116,
-            "answer_feedback": "MacNider halves his forces before initiating a two-pronged assault from Ohio and Kentucky, surprising the union militants, who had expected the conflict to stay within state lines. Days pass as skirmishes between the two sides sees the insurgents slowly pushed eastward, until they finally reach the  Kanawha River, where the National Guard is stationed on the opposing bank. Surrounded and surmounted, the socialists surrender, and Hatfield, despite a last minute escape attempt, is arrested."
+            "answer_feedback": "MacNider halves his forces before initiating a two-pronged assault from Ohio and Kentucky, surprising the union militants, who had expected the conflict to stay within state lines. Days pass as skirmishes between the two sides sees the insurgents slowly pushed eastward, until they finally reach the Kanawha River, where the National Guard is stationed on the opposing bank. Surrounded and surmounted, the socialists surrender, and Hatfield, despite a last minute escape attempt, is arrested."
         }
     },
     {
@@ -28713,7 +28713,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15530,
             "candidate": 116,
-            "answer_feedback": "MacNider halves his forces before initiating a two-pronged assault from Ohio and Kentucky, surprising the union militants, who had expected the conflict to stay within state lines. Days pass as skirmishes between the two sides sees the insurgents slowly pushed eastward, until they finally reach the  Kanawha River, where the National Guard is stationed on the opposing bank. Surrounded and surmounted, the socialists surrender, and Hatfield, despite a last minute escape attempt, is arrested."
+            "answer_feedback": "MacNider halves his forces before initiating a two-pronged assault from Ohio and Kentucky, surprising the union militants, who had expected the conflict to stay within state lines. Days pass as skirmishes between the two sides sees the insurgents slowly pushed eastward, until they finally reach the Kanawha River, where the National Guard is stationed on the opposing bank. Surrounded and surmounted, the socialists surrender, and Hatfield, despite a last minute escape attempt, is arrested."
         }
     },
     {
@@ -29529,23 +29529,7 @@ if (e.player_answers.length === 16 && PartyComposition === 3) {
     e.questions_json[16] = tunnel(14171)
     console.log("can't successfully oppose compensation")
 }
-//Question 18 Variations
-if (e.player_answers.length === 17 && PartyComposition === 3 && LegislativeGoodwill > 0) {
-    e.questions_json[17] = tunnel(14216)
-    console.log("can't successfully oppose compensation")
-}
-if (e.player_answers.length === 17 && PartyComposition < 3 && LegislativeGoodwill > 0) {
-    e.questions_json[17] = tunnel(14258)
-    console.log("can't successfully oppose compensation")
-}
-if (e.player_answers.length === 17 && PartyComposition === 3 && LegislativeGoodwill === 0) {
-    e.questions_json[17] = tunnel(14301)
-    console.log("can't successfully oppose compensation")
-}
-if (e.player_answers.length === 17 && PartyComposition < 3 && LegislativeGoodwill === 0) {
-    e.questions_json[17] = tunnel(14343)
-    console.log("can't successfully oppose compensation")
-}
+//Question 18 Variations (In Q27 CYOA) (Goddamn stupid variables)
 //Question 19 Variations
 if (e.player_answers.length === 18) {
     e.questions_json[18] = tunnel(14386)
@@ -29643,11 +29627,11 @@ if (e.player_answers.length === 29) {
     console.log("can't successfully oppose compensation")
 }
 //Question 31 Variations
-if (e.player_answers.length === 30 && ButlerCult < 2) {
+if (e.player_answers.length === 30 && ButlerCult < 3) {
     e.questions_json[30] = tunnel(15396)
     console.log("can't successfully oppose compensation")
 }
-if (e.player_answers.length === 30 && ButlerCult > 1) {
+if (e.player_answers.length === 30 && ButlerCult > 2) {
     e.questions_json[30] = tunnel(15403)
     console.log("can't successfully oppose compensation")
 }
@@ -29706,7 +29690,7 @@ if (e.player_answers.length === 33 && Isolationism < 6 && Isolationism > 0) {
     e.questions_json[33] = tunnel(15793)
     console.log("can't successfully oppose compensation")
 }
-if (e.player_answers.length === 33 && Isolationism > 1) {
+if (e.player_answers.length === 33 && Isolationism < 1) {
     e.questions_json[33] = tunnel(15800)
     console.log("can't successfully oppose compensation")
 }
@@ -29928,10 +29912,10 @@ if (ans == 13675){
 if (ans == 13679){
     IWWAgitation += 1;
 }
-if (ans == 13668){
+if (ans == 13605){
     LegislativeGoodwill -= 1;
 }
-if (ans == 13693){
+if (ans == 13644){
     LegislativeGoodwill -= 1;
 }
 //Question 11 CYOA
@@ -30067,37 +30051,165 @@ if (ans == 14044){
 //Question 17 CYOA
 if (ans == 14081){
     LegislativeGoodwill += 1;
+    if (PartyComposition === 3) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
+}
+if (ans == 14082){
+    if (PartyComposition === 3 && LegislativeGoodwill > 0) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3 && LegislativeGoodwill > 0) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition === 3 && LegislativeGoodwill === 0) {
+        e.questions_json[17] = tunnel(14301)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3 && LegislativeGoodwill === 0) {
+        e.questions_json[17] = tunnel(14343)
+        console.log("can't successfully oppose compensation")
+    }
 }
 if (ans == 14083){
     LegislativeGoodwill += 1;
+    if (PartyComposition === 3) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
 }
 if (ans == 14084){
     LegislativeGoodwill += 1;
+    if (PartyComposition === 3) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
+}
+if (ans == 14127){
+    if (PartyComposition === 3 && LegislativeGoodwill > 0) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3 && LegislativeGoodwill > 0) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition === 3 && LegislativeGoodwill === 0) {
+        e.questions_json[17] = tunnel(14301)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3 && LegislativeGoodwill === 0) {
+        e.questions_json[17] = tunnel(14343)
+        console.log("can't successfully oppose compensation")
+    }
 }
 if (ans == 14137){
     LegislativeGoodwill += 1;
+    if (PartyComposition === 3) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
 }
 if (ans == 14151){
     LegislativeGoodwill += 1;
+    if (PartyComposition === 3) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
 }
 if (ans == 14163){
     LegislativeGoodwill += 1;
+    if (PartyComposition === 3) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
 }
 if (ans == 14172){
     LegislativeGoodwill += 1;
+    if (PartyComposition === 3) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
 }
 if (ans == 14182){
     LegislativeGoodwill += 1;
+    if (PartyComposition === 3) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
 }
 if (ans == 14196){
+    if (PartyComposition === 3 && LegislativeGoodwill > 0) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3 && LegislativeGoodwill > 0) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition === 3 && LegislativeGoodwill === 0) {
+        e.questions_json[17] = tunnel(14301)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3 && LegislativeGoodwill === 0) {
+        e.questions_json[17] = tunnel(14343)
+        console.log("can't successfully oppose compensation")
+    }
+}
+if (ans == 14208){
     LegislativeGoodwill += 1;
+    if (PartyComposition === 3) {
+        e.questions_json[17] = tunnel(14216)
+        console.log("can't successfully oppose compensation")
+    }
+    if (PartyComposition < 3) {
+        e.questions_json[17] = tunnel(14258)
+        console.log("can't successfully oppose compensation")
+    }
 }
 //Question 18 CYOA
 if (ans == 14217){
     IWWAgitation += 1;
+    LegislativeGoodwill -= 1;
 }
 if (ans == 14259){
     IWWAgitation += 1;
+    LegislativeGoodwill -= 1;
 }
 if (ans == 14302){
     IWWAgitation += 1;
@@ -30141,12 +30253,12 @@ if (ans == 14276){
 if (ans == 14319){
     NECApproval -= 2;
 }
-//Question 18 CYOA
-if (ans == 14217){
+//Question 19 CYOA
+if (ans == 14388){
     NECApproval -= 1;
     Isolationism -= 1;
 }
-if (ans == 14259){
+if (ans == 14389){
     NECApproval -= 2;
     Isolationism -= 1;
 }
@@ -30174,10 +30286,12 @@ if (ans == 14523){
 if (ans == 14417){
     MussoliniMeter += 2;
     IWWAgitation += 1;
+    LegislativeGoodwill -= 1;
 }
 if (ans == 14464){
     MussoliniMeter += 2;
     IWWAgitation += 1;
+    LegislativeGoodwill -= 1;
 }
 //Question 22 CYOA
 if (ans == 14534){
@@ -30580,7 +30694,7 @@ function openHeadquarter() {
         Fashy = 'few and far between'
     }
     if (MussoliniMeter > 8 && MussoliniMeter < 13) {
-        Fashy = 'notworthy'
+        Fashy = 'noteworthy'
     }
     if (MussoliniMeter > 12 && MussoliniMeter < 17) {
         Fashy = 'striking'
@@ -30756,7 +30870,6 @@ function handleMutations(mutationsList, observer) {
     observerRunning = false;
 }
 
-
 let observerRunning = false;
 
 var element = document.getElementById('controlElement');
@@ -30787,7 +30900,7 @@ vpTableHistorical = {
     "Richard Washburn Child" : "Grayson M. P. Murphy",
     "Joseph Irwin France" : "William Borah",
     "John Nance Garner" : "Henry Skillman Breckinridge",
-    "Henry Wallace" : "Norman Thomas",
+    "Robert M. La Follette Jr." : "Hjalmar Petersen",
 } 
 
 function onGameWindowChangeCandidates() {
@@ -30843,5 +30956,99 @@ const candidateWatcherConfig = { attributes: true, childList: true, subtree: tru
 
 const candidateObserver = new MutationObserver(onGameWindowChangeCandidates);
 candidateObserver.observe(gameWindowNode, candidateWatcherConfig);
+
+//Endings
+
+campaignTrail_temp.multiple_endings = true;
+endingPicker = (out, totv, aa, quickstats) => {
+
+    function setImage(url) {
+        if(url == '' || url == null) return;
+        let interval = setInterval(function () {
+            img = document.getElementsByClassName("person_image")[0];
+            if (img != null) {
+                img.src = url;
+                clearInterval(interval);
+            }
+        }, 50);
+    }
+
+    if(quickstats[0] > 265) {
+        if(MussoliniMeter < 13 && NECApproval > 6 && IWWAgitation < 11 && TalmadgePrimary < 3 && VanZandtPrimary < 3){
+            setImage("");
+            return `Child Victory. Ending 1/16. Mr. Unremarkable.`;
+        }
+        if(MussoliniMeter < 13 && NECApproval < 7 && IWWAgitation < 11 && TalmadgePrimary < 3 && VanZandtPrimary < 3) {
+            setImage("");
+            return `Child Victory. Ending 2/16. Early Reitirement.`;
+        }
+        if(MussoliniMeter > 12 && NECApproval > 6 && IWWAgitation < 11 && TalmadgePrimary < 3 && VanZandtPrimary < 3) {
+            setImage("");
+            return `Child Victory. Ending 3/16. The Men behind the Man.`;
+        }
+        if(MussoliniMeter > 12 && NECApproval < 7 && IWWAgitation < 11 && TalmadgePrimary < 3 && VanZandtPrimary < 3) {
+            setImage("");
+            return `Child Victory. Ending 4/16. Avanti Americana.`;
+        }
+        if(TalmadgePrimary > 2) {
+            setImage("");
+            return `Talmadge Victory. Ending 12/16. Red Suspenders are in Fashion.`;
+        }
+        if(VanZandtPrimary > 2) {
+            setImage("");
+            return `Talmadge Victory. Ending 13/16. Butler's Revenge.`;
+        }
+        if(IWWAgitation > 10 && LegionLeader === 2) {
+            setImage("");
+            return `Patton Civil War Ending. Ending 15/16. The Patton before the fall.`;
+        }
+        if(IWWAgitation > 10 && LegionLeader === 2) {
+            setImage("");
+            return `Patton Civil War Ending. Ending 15/16. The Patton before the fall.`;
+        }
+        if(IWWAgitation > 10 && LegionLeader === 3) {
+            setImage("");
+            return `Moseley Civil War Ending. Ending 16/16. Thus Unto Tyrants.`;
+        }
+    }
+    if(quickstats[0] < 265 && quickstats[1] < 265 && quickstats[3] < 265 && quickstats[4]){
+        if(PartyComposition === 1 && IWWAgitation < 11) {
+            setImage("");
+            return `Draw w/ Hoover. Ending 5/16. To Own a Lib Variation 1.`;
+        }
+        if(PartyComposition === 2 && IWWAgitation < 11) {
+            setImage("");
+            return `Draw w/ Liberals. Ending 6/16. Anyone but Him.`;
+        }
+        if(PartyComposition === 3 && IWWAgitation < 11) {
+            setImage("");
+            return `Draw w/ Garner. Ending 7/16. To Own a Lib Variation 2.`;
+        }
+    }
+    if(quickstats[1] > 265){
+        if(PartyComposition === 1 && IWWAgitation < 11) {
+            setImage("");
+            return `Hoover Victory. Ending 8/16. Who but Hoover?.`;
+        }
+        if(PartyComposition > 1 && IWWAgitation < 11) {
+            setImage("");
+            return `France Victory. Ending 9/16. C'est la vie.`;
+        }
+    }
+    if(quickstats[2] > 265){
+        if(PartyComposition === 3 && IWWAgitation < 11) {
+            setImage("");
+            return `Garner Victory. Ending 10/16. Cactus Jack Rides Again.`;
+        }
+        if(PartyComposition < 3 && IWWAgitation < 11) {
+            setImage("");
+            return `Hull Victory. Ending 11/16. We have FDR at home.`;
+        }
+    }
+    if(quickstats[4] > 265) {
+        setImage("");
+        return `What? You want a funny ending for cheating? Kiss my ass.`;
+    }
+}
 
 //endcode2
