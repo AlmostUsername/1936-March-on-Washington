@@ -26967,7 +26967,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13512,
             "candidate": 116,
-            "answer_feedback": "Whilst a majority of the Minnesotan National Guard side with their governor, Murphy’s legions are devotedly loyal, and sweep through the state with ease, disarming the inexperienced left-wing militias and arresting Olson before the week is out. The regional riots fizzle out on their own, and you’re hailed in the papers as a strong and decisive leader."
+            "answer_feedback": "Whilst a majority of the Minnesotan National Guard side with their governor, Murphy’s legions are devoutly loyal, and sweep through the state with ease, disarming the inexperienced left-wing militias and arresting Olson before the week is out. The regional riots fizzle out on their own, and you’re hailed in the papers as a strong and decisive leader."
         }
     },
     {
@@ -29536,19 +29536,19 @@ if (e.player_answers.length === 18) {
     console.log("can't successfully oppose compensation")
 }
 //Question 20 Variations
-if (e.player_answers.length === 19 && PartyComposition > 1 && LegislativeGoodwill > 0) {
+if (e.player_answers.length === 19 && PartyComposition === 1 && LegislativeGoodwill > 0) {
     e.questions_json[19] = tunnel(14413)
     console.log("can't successfully oppose compensation")
 }
-if (e.player_answers.length === 19 && PartyComposition === 1 && LegislativeGoodwill > 0) {
+if (e.player_answers.length === 19 && PartyComposition > 1 && LegislativeGoodwill > 0) {
     e.questions_json[19] = tunnel(14441)
     console.log("can't successfully oppose compensation")
 }
-if (e.player_answers.length === 19 && PartyComposition > 1 && LegislativeGoodwill === 0) {
+if (e.player_answers.length === 19 && PartyComposition === 1 && LegislativeGoodwill === 0) {
     e.questions_json[19] = tunnel(14470)
     console.log("can't successfully oppose compensation")
 }
-if (e.player_answers.length === 19 && PartyComposition === 1 && LegislativeGoodwill === 0) {
+if (e.player_answers.length === 19 && PartyComposition > 1 && LegislativeGoodwill === 0) {
     e.questions_json[19] = tunnel(14499)
     console.log("can't successfully oppose compensation")
 }
