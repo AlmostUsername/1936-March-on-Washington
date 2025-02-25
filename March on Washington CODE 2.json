@@ -736,7 +736,7 @@ campaignTrail_temp.questions_json = [
         "pk": 15918,
         "fields": {
             "priority": 135,
-            "description": "You’re midway through a meeting with the NEC concerning the final events of your campaign when the shrill ring of a telephone silences the room. You can practically hear the sweat dripping down Edgar Hoover’s face as the normally assertive man squeaks out the news. Bands of armed unionists, no doubt associated with the IWW, have risen up across the Rust Belt in revolution against your regime, bringing with them a majority of the population. Whole battalions of the National Guard have defected, and local Legion groups, outnumbered, have been disarmed or gone down fighting. Whether or not this means further uprisings are inevitable is unknown, but, in effect, the Great Lakes are currently under the occupation of a hostile force.<br><br>You look up from the desk, seeing dread reflected back at you in the faces of your co-conspirators. All the work, all the throats you cut… It can’t be for nothing. It won't be.<br>Your grip on the handset tightens.",
+            "description": "You’re midway through a meeting with the NEC concerning the final events of your campaign when the shrill ring of a telephone silences the room. You can practically hear the sweat dripping down Edgar Hoover’s face as the normally assertive man squeaks out the news. The IWW’s National Organisation Committee, spurred on by the rapid radicalisation of the American left, have called for a nationwide general strike. Or, more accurately, an uprising.<br>Bands of armed unionists have risen up across the Rust Belt in revolution against your regime, bringing with them a majority of the population. Whole battalions of the National Guard have defected, and local Legion groups, outnumbered, have been disarmed or gone down fighting. Whether or not this means further uprisings are inevitable is unknown, but, in effect, the Great Lakes are currently under the occupation of a hostile force.<br><br>You look up from the desk, seeing dread reflected back at you in the faces of your co-conspirators. All the work, all the throats you cut… It can’t be for nothing. It won't be.<br>Your grip on the handset tightens.",
             "likelihood": 1
         }
     }
@@ -27048,7 +27048,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 13598,
             "candidate": 116,
-            "answer_feedback": "Needless to say, those who were worried about the strength of the administration following the death of Butler are relieved to have another military man in office. You and your allies, however, are just "
+            "answer_feedback": "Needless to say, those who were worried about the strength of the administration following the death of Butler are relieved to have another military man in office. You and your allies, however, are just happy that the plan has been working thus far. First the presidency, and now the vice presidency too - how long until all the branches of government are staffed entirely by the NEC?"
         }
     },
     {
@@ -29589,7 +29589,7 @@ if (e.player_answers.length === 27 && PartyComposition === 1 && Isolationism > 7
     console.log("can't successfully oppose compensation")
 }
 if (e.player_answers.length === 27 && PartyComposition === 1 && Isolationism < 8) {
-    e.questions_json[27] = tunnel(14842)
+    e.questions_json[27] = tunnel(14841)
     console.log("can't successfully oppose compensation")
 }
 if (e.player_answers.length === 27 && PartyComposition === 2 && Isolationism > 7) {
@@ -31011,7 +31011,7 @@ endingPicker = (out, totv, aa, quickstats) => {
             return `Moseley Civil War Ending. Ending 16/16. Thus Unto Tyrants.`;
         }
     }
-    if(quickstats[0] < 265 && quickstats[1] < 265 && quickstats[3] < 265 && quickstats[4]){
+    if(quickstats[0] < 265 && quickstats[1] < 265 && quickstats[2] < 265 && quickstats[3] < 265){
         if(PartyComposition === 1 && IWWAgitation < 11) {
             setImage("");
             return `Draw w/ Hoover. Ending 5/16. To Own a Lib Variation 1.`;
@@ -31045,7 +31045,7 @@ endingPicker = (out, totv, aa, quickstats) => {
             return `Hull Victory. Ending 11/16. We have FDR at home.`;
         }
     }
-    if(quickstats[4] > 265) {
+    if(quickstats[3] > 265) {
         setImage("");
         return `What? You want a funny ending for cheating? Kiss my ass.`;
     }
