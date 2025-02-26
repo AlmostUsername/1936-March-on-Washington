@@ -29199,7 +29199,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 15919,
             "candidate": 116,
-            "answer_feedback": "From Seattle to Miami, revolutionaries and loyalists scramble to occupy town centers before the opposition can, local governments collapsing under the weight of their employees’ split allegiances. Where the state fails to maintain order, workers seize factories and form councils, bringing the wrath of a scorned class to their former oppressors. Every new report tells a bleaker and muddier story than the last, but one thing is clear:the Second American Civil War has begun."
+            "answer_feedback": "From Seattle to Miami, revolutionaries and loyalists scramble to occupy town centers before the opposition can, local governments collapsing under the weight of their employees’ split allegiances. Where the state fails to maintain order, workers seize factories and form councils, bringing the wrath of a scorned class to their former oppressors. Every new report tells a bleaker and muddier story than the last, but one thing is clear: the Second American Civil War has begun."
         }
     }
 ]
@@ -30974,6 +30974,7 @@ endingPicker = (out, totv, aa, quickstats) => {
     }
 
     if(quickstats[0] > 265) {
+        //Victory Endings
         if(MussoliniMeter < 13 && NECApproval > 6 && IWWAgitation < 11 && TalmadgePrimary < 3 && VanZandtPrimary < 3){
             setImage("");
             return `Child Victory. Ending 1/16. Mr. Unremarkable.`;
@@ -30990,6 +30991,7 @@ endingPicker = (out, totv, aa, quickstats) => {
             setImage("");
             return `Child Victory. Ending 4/16. Avanti Americana.`;
         }
+        //Primaried Endings
         if(TalmadgePrimary > 2) {
             setImage("");
             return `Talmadge Victory. Ending 12/16. Red Suspenders are in Fashion.`;
@@ -30998,54 +31000,86 @@ endingPicker = (out, totv, aa, quickstats) => {
             setImage("");
             return `Talmadge Victory. Ending 13/16. Butler's Revenge.`;
         }
-        if(IWWAgitation > 10 && LegionLeader === 2) {
+        //Civil War Endings
+        if(IWWAgitation > 10 && LegionLeader === 1) {
             setImage("");
-            return `Patton Civil War Ending. Ending 15/16. The Patton before the fall.`;
+            return `Patton Civil War Ending. Ending 14/16. Taiwanification.`;
         }
         if(IWWAgitation > 10 && LegionLeader === 2) {
-            setImage("");
-            return `Patton Civil War Ending. Ending 15/16. The Patton before the fall.`;
+            document.head.innerHTML +=`
+            <style>
+            #main_content_area {
+	        height: 65%;
+            }
+            </style>`
+            corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“May God have mercy for my enemies because I won't.” - George Patton</em></font>\n            ';
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#946f51";
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ad8c71";
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+            $("#game_window")[0].style.backgroundColor = "#dbb393";
+            $(".container")[0].style.backgroundColor = "#ad8c71";
+            document.getElementById("header").src = "https://i.postimg.cc/50kPMnbF/MOW-Ending-15-Banner.png";
+            document.body.background = "https://i.postimg.cc/WpxvG7g3/MOW-Ending-15-Background.png";
+            setImage("https://i.postimg.cc/Hnc6WXkv/MOW-Ending-15-Image.png");
+            return `<div style='overflow-y:scroll;height:250px;padding-right:7px;'><p style='font-size:20px;'><center><b>JAPANESE DESTROYER SUNK BY US MILITARY</b></center><p>SUNDAY, JANUARY 26TH, 1947<p>On Wednesday the 22nd, at 20:08 HST, the Japanese Akizuki-class destroyer Niizuki was sunk eight miles off the coast of Kauai after being struck by a barrage of rounds shot from Hawaiian coastal artillery. The ship, which, according to Japanese officials, had been patrolling the area to protect Japanese merchant vessels following numerous skirmishes between the two countries over their pacific claims, entered the US’s territorial waters without their express permission, resulting in a brief shootout. Of the exactly 300 crewmembers aboard, roughly half perished, with the United States Military claiming to have taken 143 Japanese personnel prisoner.<p>The Japanese Ministry of Foreign Affairs has denounced the sinking as “an act of US aggression” and have demanded the immediate release of the detained sailors, alongside the payment of $500,000 in reparations. The US Military, for their part, have justified their actions as self-defence, accusing the Japanese of purposefully provoking their forces by entering Hawaiian waters and citing international precedent for the incarceration of the crewmembers. As of Friday the 24th, Secretary of State George Marshall has formally announced that the nation would not be submitting to any of the Japanese demands.<p>This incident comes after years of increasing tensions between the Japanese Empire and the rump United States of America (since reduced to just Hawaii and a number of other pacific island possessions following the end of the Second American Civil War in 1942). Former Prime Minister Yonai’s failed attempts to muscle the USA into the Co-Prosperity Sphere back in 1945 is seen by many as the beginning of this diplomatic schism, with the irredentism and anti-Japanese sentiment of General-President Patton only exacerbating the situation.<p>International observers have voiced concerns that this dispute may soon spiral into open conflict, which threatens to upset a region still reeling from the fallout of the Second World War. Despite this, other regional powers have declined outside offers to mediate, with Chairman Hatfield of the American Commonwealth describing the situation as an “inter-reactionary conflict” that “may as well see the b*stards do us all a favour and destroy themselves”.`;
         }
         if(IWWAgitation > 10 && LegionLeader === 3) {
-            setImage("");
-            return `Moseley Civil War Ending. Ending 16/16. Thus Unto Tyrants.`;
+            document.head.innerHTML +=`
+            <style>
+            #main_content_area {
+	        height: 65%;
+            }
+            </style>`
+            corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“Hate does not produce love, and by hate one cannot remake the world.” - Errico Malatesta</em></font>\n            ';
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+            nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#000000";
+            document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+            $("#game_window")[0].style.backgroundColor = "#7d4a4a";
+            $(".container")[0].style.backgroundColor = "#000000";
+            document.getElementById("header").src = "https://i.postimg.cc/vH38yyfg/MOW-Ending-16-Banner.png";
+            document.body.background = "https://i.postimg.cc/XNrWBPZm/MOW-Ending-16-Background.png";
+            setImage("https://i.postimg.cc/L8596W3y/MOW-Ending-16-Image.png");
+            return `<div style='overflow-y:scroll;height:250px;padding-right:7px;'><p style='font-size:20px;'><center><b>HAPPY LIBERATION DAY: 10 YEARS OF ANARCHY!</b></center>SUNDAY, SEPTMEBER 4TH, 1949<p>Most people remember where they were when they heard that George Moseley was captured. My wife was with her militia, garrisoning a newly-occupied Columbus. My brother was back up in Chicago, helping sort rations in our neighbourhood’s distribution center. As for me, I was down in Louisiana, watching in person as my comrades apprehended the tyrant.<p>It was a sunny day in New Orleans, the clear sky giving an incongruous tone to the fierce battle waging below. The Red Guard detachment I was commanding had just managed to dislodge the last few Legionnaires holding out in the city’s port, disarming the few who surrendered and reappropriating their defenses in case of a counter-attack. Overall, the assault on the fascists’ temporary capital had been going better for us than expected. The other captains and I had gloomily expected it to turn into one long, drawn-out siege, but, much to our (at the time unknown) luck, part of the Generalissimo’s inner circle had rebelled against him, depriving his remaining troops of half a command structure. It seemed that, from the moment it had overthrown its predecessor, to its very last fight, Moseley’s regime was destined to cannibalise itself.<p>Exhausted from lugging around sandbags, I slumped down against the wall of a nearby warehouse, pulling out my pocket-sized edition of Malatesta’s At The Café for entertainment. Yet, I had made it through no more than three sentences before the crack of rifle fire sent me running towards the embankment. The militiamen perched at the edge of the harbor had spotted a small boat sailing southwards down the Mississippi, a small group of shoddily cloaked figures aboard. The lack of a red or white flag had immediately heightened my comrades’ suspicions, and, when the vessel had refused their orders to stop, they opened fire with the intention to sink. Bullets swiftly peppered the hull, sending the craft beneath the waves and its passengers scrambling towards the shore. Unfortunately for them, the only path back to dry land was via our position.<p>One by one, the failed escapees were pulled ashore, their sodden disguises torn off to reveal none other than the American Mussolini and his personal guard. At first, my compatriots and I were in disbelief - there was a higher chance we had captured an unfortunate lookalike than the man himself - but the medals, the entourage, they were confirmation enough. I scrambled over the rubble to find our radio officer, shaking her by the shoulders as I ordered her to relay the news. The machine whirred to life, four words transmitting throughout the city: “We have the President.”<p>Slowly, the bursts of gunfire and artillery that had permeated the day’s events went quiet, bathing New Orleans in a ghostly silence. Then, a cheer. From the streets, the harbors and the field hospitals, people cried out in joy and relief. Three years of hell were finally over. Tears trickled down the faces of even my most aloof comrades as they held each other and discussed what they would do when they returned home to their loved ones. It wasn’t until I touched my face I realised I was weeping too. The Generalissimo spat at my feet, declaring me an “limp-wristed prissy”, but I couldn’t bring myself to care. He wasn’t in charge anymore, and he never would be again.<p>Even now, when I think of that day, my eyes mist up. The celebrations in Chicago, my meeting with Chairman Tresca, they were all great celebrations that hold a dear place in my heart, but none hold a candle to the sheer emotion that overcame the battlefield that day. The knowledge that the sacrifices we made had ended such a horrendous chapter of American history, that those we had lost had not died in vain, lifted an emotional burden brought on by eighteen months of war, even just for a couple minutes. Whenever that burden weighs on me again, as it often does, all it takes is one look outside at a world freer and fairer than ever before, and I am blessed with that feeling once more.<p>Happy Liberation Day, comrades. Here's to many more.`;
         }
     }
-    if(quickstats[0] < 265 && quickstats[1] < 265 && quickstats[2] < 265 && quickstats[3] < 265){
-        if(PartyComposition === 1 && IWWAgitation < 11) {
-            setImage("");
-            return `Draw w/ Hoover. Ending 5/16. To Own a Lib Variation 1.`;
+    if(aa[0].electoral_votes < 266) {
+        //Draw Endings
+        if(PartyComposition === 1) {
+        setImage("");
+        return `Draw w/ Hoover. Ending 5/16. To Own a Lib Variation 1.`;
         }
-        if(PartyComposition === 2 && IWWAgitation < 11) {
-            setImage("");
-            return `Draw w/ Liberals. Ending 6/16. Anyone but Him.`;
+        if(PartyComposition === 2) {
+        setImage("");
+        return `Draw w/ Liberals. Ending 6/16. Anyone but Him.`;
         }
-        if(PartyComposition === 3 && IWWAgitation < 11) {
-            setImage("");
-            return `Draw w/ Garner. Ending 7/16. To Own a Lib Variation 2.`;
+        if(PartyComposition === 3) {
+        setImage("");
+        return `Draw w/ Garner. Ending 7/16. To Own a Lib Variation 2.`;
         }
-    }
-    if(quickstats[1] > 265){
-        if(PartyComposition === 1 && IWWAgitation < 11) {
+    } 
+    if(aa[0].candidate === 117 && aa[0].electoral_votes > 265) {
+        //Republican Victory Endings
+        if(PartyComposition === 1) {
             setImage("");
             return `Hoover Victory. Ending 8/16. Who but Hoover?.`;
         }
-        if(PartyComposition > 1 && IWWAgitation < 11) {
+        if(PartyComposition > 1) {
             setImage("");
             return `France Victory. Ending 9/16. C'est la vie.`;
         }
     }
-    if(quickstats[2] > 265){
-        if(PartyComposition === 3 && IWWAgitation < 11) {
+    if(aa[0].candidate === 118 && aa[0].electoral_votes > 265) {
+        //Democrat Victory Endings
+        if(PartyComposition === 3) {
             setImage("");
             return `Garner Victory. Ending 10/16. Cactus Jack Rides Again.`;
         }
-        if(PartyComposition < 3 && IWWAgitation < 11) {
+        if(PartyComposition < 3) {
             setImage("");
             return `Hull Victory. Ending 11/16. We have FDR at home.`;
         }
     }
-    if(quickstats[3] > 265) {
+    if(aa[0].candidate === 119 && aa[0].electoral_votes > 265) {
         setImage("");
         return `What? You want a funny ending for cheating? Kiss my ass.`;
     }
