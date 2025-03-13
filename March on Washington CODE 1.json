@@ -150,7 +150,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Republican (formerly)",
             "state": "Pennsylvania",
             "priority": 1,
-            "description": "<div style='overflow-y:scroll;height:180px;padding-right:7px'>To the people of America, Butler is the definition of a hero: a man who fought tooth and nail to further righteous causes of liberty and democracy. To the veterans of America, he is their champion: the leader of their movement and the loudest voice calling for their rights. To you and your fellows in the National Emergency Council, he's your biggest asset - and your biggest threat.\n\n<p>Gaining his fame from his valiant and exceptional actions in nearly every American-involved conflict from 1898 to 1929, Butler was the NEC's first obvious choice to lead the March on Washington. His near cult-like status amongst the people of the nation would ensure a wide range of support in the prospective coup, and would be vital in appeasing any opponents. To say it took a while to get him on board would be an understatement - getting him to run for commander of the American legion cost a full day's worth of tense and underhanded negotiations alone - but, finally convinced of the plan's necessity weakness, Smedley has pledged himself to the creation of a new regime for the sake of America's stability. <i>Supposedly.</i><p>However, it's no small worry that, once given the levers of power, Butler will not settle for being the NEC's puppet for long. His gradual shift leftwards since his retirement, coupled with his distaste for fascism and its sympathizers, could easily result in the former Marine sweeping the rug out from under you and your compatriots, resulting in the establishment of a government ten times more dangerous and competent than Coxey's. Needless To say, plans have been put in place to ensure old Smedley never gets the chance.<p></div>",
+            "description": "<div style='overflow-y:scroll;height:180px;padding-right:7px'>To the people of America, Butler is the definition of a hero: a man who fought tooth and nail to further righteous causes of liberty and democracy. To the veterans of America, he is their champion: the leader of their movement and the loudest voice calling for their rights. To you and your fellows in the National Emergency Council, he's your biggest asset - and your biggest threat.\n\n<p>Gaining his fame from his valiant and exceptional actions in nearly every American-involved conflict from 1898 to 1929, Butler was the NEC's first obvious choice to lead the March on Washington. His near cult-like status amongst the people of the nation would ensure a wide range of support in the prospective coup, and would be vital in appeasing any opponents. To say it took a while to get him on board would be an understatement - getting him to run for commander of the American legion cost a full day's worth of tense and underhanded negotiations alone - but, finally convinced of the plan's necessity weakness, Smedley has pledged himself to the creation of a new regime for the sake of America's stability. <i>Supposedly.</i><p>However, it's no small worry that, once given the levers of power, Butler will not settle for being the NEC's puppet for long. His gradual shift leftwards since his retirement, coupled with his distaste for fascism and its sympathizers, could easily result in the former Marine sweeping the rug out from under you and your compatriots, resulting in the establishment of a government ten times more dangerous and competent than Coxey's. Needless to say, plans have been put in place to ensure old Smedley never gets the chance.<p></div>",
             "color_hex": "#434343",
             "secondary_color_hex": "#999999",
             "is_active": 1,
@@ -429,11 +429,85 @@ document.body.background = "https://i.postimg.cc/8zHM4jgt/MOW-36-Background.png"
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#c4c4c4!important;}</style>";
 
-
 HistHexcolour=["#434343","#073763","#cc0000","#34a853"];
 HistName=[" Richard Washburn Child"," John Nance Garner"," Joseph Irwin France"," Robert M. La Follette Jr."];
 HistEV=[347,110,74,0];
 HistPV=["16,393,984","11,821,872","11,906,787","6,002,116"];
 HistPVP=["35.5%","25.6%","25.8%","13.0%"];
+
+e=campaignTrail_temp
+
+var changeGameDisp = (hide) => {
+  disp = "";
+  if (hide) {
+    disp = "none";
+  }
+  document.getElementsByClassName("inner_window_w_desc")[0].style.display = disp
+};
+
+e.creditsPage = () => {
+  credits_html = `
+    <h3>Writing and Coding</h3>
+    <p>BreadSanta1917 (aka ProbablyUsername)</p>
+    <h3>Proofreading</h3>
+    <p>Cardboardigan</p>
+    <h3>Playtesting</h3>
+    <p>Cecilia</p>
+    <p>PrussianPatriot<p>
+    <p>Genny</p>
+    <h3>Borrowed Code (without which this mod wouldn’t exist)</h3>
+    <p>Credits screen - DecstarG</p>
+    <p>Variable Headquarters Code - Astro</p>
+    <p>Tooltip Code - Nina</p>
+    <p>Code to resize the Feedback Box - Vice team</p>
+    <p>Code to edit Overall Results screen - Peace With Honor team</p>
+    <h3>With Special Thanks To</h3>
+    <p>Everyone in the #mod-help channel who put up with my clueless ass</p><br><br>
+    <h3>Note from the Developer</h3>
+    <div style='width: 70%;text-overflow: ellipsis;text-align:center;display: block;margin-left: auto;margin-right: auto;'>
+    <p>Thank you for playing this mod. As someone who’s been playing this game for around a year or so, and has had so much fun playing all the different mods this wonderful community has made, the idea that I may be able to repay even a tiny amount of that joy through this mod is extremely humbling.</p>
+    <p>Being my first ever TCT mod, I am aware that it probably isn’t going to be the greatest. Still, I hope the six or so months of writing I’ve put into this is enough to make it at least somewhat interesting.</p>
+    <p>Hopefully, this will merely be the first of many mods I make. With how kind and accommodating the people on the discord have been, I’m sure this will be the case.</p>
+    <p>Once again, thank you for giving this mod a chance, and I hope you have fun playing it.</p>
+    <p>- BreadSanta1917</p>
+    </div>
+  `
+  changeGameDisp(true);
+  var spacer = document.createElement("amongusspacerthisisntarealelement");
+  spacer.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+  document
+    .getElementsByClassName("inner_window_w_desc")[0]
+    .children[1].appendChild(spacer);
+    changeGameDisp(true);
+    var menuHeader = document.createElement("div");
+    menuHeader.classList.add("inner_window_front");
+    menuHeader.innerHTML = `<h1 style='font-family: "Arial";'><font color='white'>CREDITS</font></h1>`;
+    menuHeader.id = "SOTUheader";
+    menuHeader.style = "height: 50px;background-color:#2d2d2d";
+    var newMenu = document.createElement("div");
+    newMenu.classList.add("inner_window_front");
+    newMenu.id = "SOTUmenu";
+    newMenu.style = `height:260px;background-color:#2d2d2d;color:white;overflow-y: scroll;`;
+
+    newMenu.innerHTML = credits_html;
+    let z = document.getElementById("game_window");
+    var backButton = document.createElement("button");
+    backButton.style =
+      "position: relative; bottom: -13px; left: -380px; width: 150px; height: 80px;font-size:40px;padding-top:5px;padding-left:8px";
+    backButton.id = "backSOTUBtn";
+    backButton.innerHTML = `<b>BACK</b>`;
+    backButton.onclick = function () {
+      document.getElementById("SOTUheader").remove();
+      document.getElementById("SOTUmenu").remove();
+      document.getElementById("backSOTUBtn").remove();
+      changeGameDisp(false);
+    };
+    z.appendChild(menuHeader);
+    z.appendChild(newMenu);
+    z.appendChild(backButton);
+
+}
+
+e.credits = "<button onclick='e.creditsPage()'>Credits</button>"
 
 //endcode1
