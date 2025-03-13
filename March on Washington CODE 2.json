@@ -3490,7 +3490,7 @@ campaignTrail_temp.issues_json = [
         "fields": {
             "name": "Economics",
             "description": "The Wall Street Crash saw the classical liberal consensus of the late 20s fall away in favour of a renewed discourse on economics, with various parties offering wildly differing solutions. Although the PFLA won the ‘32 election on the back of a left-wing populist program, promising things like public works and expanded welfare, many states still subscribe to the sort of laissez-faire attitude promoted by conservative Republicans and, now, the NEC.",
-            "stance_1": "Laizzes-Faire",
+            "stance_1": "Laissez-Faire",
             "stance_desc_1": "This state has a decisively liberal attitude towards economics, opposing any sort of intervention in the market. It supports deregulation, vastly lowered taxes and a market-based approach to fighting the Depression.",
             "stance_2": "Classical Liberal",
             "stance_desc_2": "This state has a fairly liberal attitude towards economics, opposing most government intervention in the market. It generally supports deregulation, lowered taxes and a market-based approach to fighting the Depression.",
