@@ -27954,7 +27954,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 14493,
             "candidate": 116,
-            "answer_feedback": "IBoth Dixies and Yankees initially throw their support behind your reforms, viewing it as an expression of support for their versions of law and order. However, when a meeting between you and Talmadge is leaked, revealing your administration has no interest in using the newly militarized police force to tackle lynching, the north pulls their support, letting your dream of a stronger state apparatus die on the floor of the House."
+            "answer_feedback": "Both Dixies and Yankees initially throw their support behind your reforms, viewing it as an expression of support for their versions of law and order. However, when a meeting between you and Talmadge is leaked, revealing your administration has no interest in using the newly militarized police force to tackle lynching, the north pulls their support, letting your dream of a stronger state apparatus die on the floor of the House."
         }
     },
     {
@@ -29887,7 +29887,6 @@ if (ans == 13593){
 }
 //Question 9 CYOA
 if (ans ==  13598){
-    campaignTrail_temp.candidate_image_url = "https://i.postimg.cc/fb8Mx1RJ/MOW-Child-Candidate.png";
     campaignTrail_temp.running_mate_image_url = "https://i.postimg.cc/Qtkmv5CP/MOW-Murphy-Candidate.png";
     campaignTrail_temp.running_mate_last_name = "Murphy";
     campaignTrail_temp.candidate_json[4]["fields"].first_name = "Grayson M. P.";
